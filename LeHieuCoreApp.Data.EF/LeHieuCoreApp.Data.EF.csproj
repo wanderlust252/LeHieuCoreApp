@@ -1,19 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LeHieuCoreApp.Data\LeHieuCoreApp.Data.csproj" />
+    <ProjectReference Include="..\LeHieuCoreApp.Infrastruture\LeHieuCoreApp.Infrastruture.csproj" />
+    <ProjectReference Include="..\LeHieuCoreApp.Utilities\LeHieuCoreApp.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
