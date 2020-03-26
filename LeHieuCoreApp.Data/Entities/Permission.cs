@@ -1,4 +1,4 @@
-﻿using LeHieuCoreApp.Infrastruture.SharedKernel;
+﻿using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,9 +12,8 @@ namespace LeHieuCoreApp.Data.Entities
     {
         [StringLength(450)]
         [Required]
-        public string RoleId { get; set; }
+        public Guid RoleId { get; set; }
 
-        [StringLength(128)]
         [Required]
         public string FunctionId { get; set; }
 

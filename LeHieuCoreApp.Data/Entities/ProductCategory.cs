@@ -1,6 +1,6 @@
 ﻿using LeHieuCoreApp.Data.Enums;
 using LeHieuCoreApp.Data.Interfaces;
-using LeHieuCoreApp.Infrastruture.SharedKernel;
+using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.Text;

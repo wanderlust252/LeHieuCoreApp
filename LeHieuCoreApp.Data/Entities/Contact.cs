@@ -1,5 +1,5 @@
 ﻿using LeHieuCoreApp.Data.Enums;
-using LeHieuCoreApp.Infrastruture.SharedKernel;
+using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

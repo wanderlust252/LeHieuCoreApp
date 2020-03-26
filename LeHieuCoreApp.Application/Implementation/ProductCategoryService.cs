@@ -5,7 +5,7 @@ using LeHieuCoreApp.Application.ViewModels.Product;
 using LeHieuCoreApp.Data.Entities;
 using LeHieuCoreApp.Data.Enums;
 using LeHieuCoreApp.Data.IRepositories;
-using LeHieuCoreApp.Infrastruture.Interfaces;
+using LeHieuCoreApp.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

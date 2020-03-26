@@ -1,0 +1,857 @@
+2020-03-23T16:09:09.7119225+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:09:09.7119225+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:09:10.0211110+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:09:10.0275827+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:09:10.0780406+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:09:10.0780387+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:09:10.1503065+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:09:10.2062004+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:09:10.2173643+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:09:10.2396680+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0349ms. (50a9e262)
+2020-03-23T16:09:10.2438354+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:09:10.2597517+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:09:10.2793861+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 181.6367ms (afa2e885)
+2020-03-23T16:09:10.2859394+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:09:10.3134921+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:09:10.3272940+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Request finished in 652.6007ms 0  (791a596a)
+2020-03-23T16:09:10.5037663+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 245.9989ms. (f66409e9)
+2020-03-23T16:09:10.5110188+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 428.5494ms (afa2e885)
+2020-03-23T16:09:10.5231747+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:09:10.6009747+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request finished in 860.3954ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:09:10.6584553+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-03-23T16:09:10.6625875+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-03-23T16:09:10.6717150+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2020-03-23T16:09:10.6753773+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/animate.css/animate.css   (ca22a1cb)
+2020-03-23T16:09:10.6780377+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/css/custom.css   (ca22a1cb)
+2020-03-23T16:09:10.6939608+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] The file "/lib/animate.css/animate.css" was not modified (f1f8d725)
+2020-03-23T16:09:10.6970330+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] The file "/lib/jquery-validation/dist/additional-methods.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.7169440+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] The file "/admin-side/css/custom.css" was not modified (f1f8d725)
+2020-03-23T16:09:10.7268692+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] Request finished in 92.962ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.7392528+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] Request finished in 92.967ms 304 text/css (791a596a)
+2020-03-23T16:09:10.7430189+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] Request finished in 108.8219ms 304 text/css (791a596a)
+2020-03-23T16:09:10.7462758+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/shared/lehieu.js   (ca22a1cb)
+2020-03-23T16:09:10.7519809+07:00 80000002-0002-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.css   (ca22a1cb)
+2020-03-23T16:09:10.7591255+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] The file "/app/shared/lehieu.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.7699093+07:00 80000002-0002-fb00-b63f-84710c7967bb [INF] The file "/lib/notify/styles/metro/notify-metro.css" was not modified (f1f8d725)
+2020-03-23T16:09:10.7761186+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] Request finished in 21.6434ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.7782721+07:00 80000002-0002-fb00-b63f-84710c7967bb [INF] Request finished in 28.3395ms 304 text/css (791a596a)
+2020-03-23T16:09:10.7942613+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-03-23T16:09:10.8017814+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/localization/messages_vi.js   (ca22a1cb)
+2020-03-23T16:09:10.8136174+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] The file "/lib/jquery-validation/dist/jquery.validate.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.8234142+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] The file "/lib/jquery-validation/localization/messages_vi.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.8373362+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] Request finished in 37.8355ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.8421518+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/login/index.js   (ca22a1cb)
+2020-03-23T16:09:10.8438760+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] Request finished in 45.1929ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.8499338+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-03-23T16:09:10.8555906+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] The file "/app/controllers/login/index.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.8631140+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.css   (ca22a1cb)
+2020-03-23T16:09:10.8750114+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] Request finished in 31.7683ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.8782483+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] The file "/lib/font-awesome/css/font-awesome.css" was not modified (f1f8d725)
+2020-03-23T16:09:10.8872363+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] The file "/lib/nprogress/nprogress.css" was not modified (f1f8d725)
+2020-03-23T16:09:10.9046015+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] Request finished in 37.877ms 304 text/css (791a596a)
+2020-03-23T16:09:10.9095625+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] Request finished in 37.5306ms 304 text/css (791a596a)
+2020-03-23T16:09:10.9227766+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/notify.js   (ca22a1cb)
+2020-03-23T16:09:10.9292954+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.js   (ca22a1cb)
+2020-03-23T16:09:10.9343919+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] The file "/lib/notify/notify.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.9409546+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] The file "/lib/notify/styles/metro/notify-metro.js" was not modified (f1f8d725)
+2020-03-23T16:09:10.9527825+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2020-03-23T16:09:10.9575211+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] Request finished in 193.0862ms 304 application/javascript (791a596a)
+2020-03-23T16:09:10.9628382+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Request finished in 344.4127ms 200 application/javascript (791a596a)
+2020-03-23T16:09:10.9775775+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] Request finished in 107.3802ms 304 application/javascript (791a596a)
+2020-03-23T16:09:11.0193912+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-03-23T16:09:11.0594136+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request finished in 413.5782ms 200 text/css (791a596a)
+2020-03-23T16:09:11.5788374+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2020-03-23T16:09:11.6594446+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] The file "/lib/font-awesome/fonts/fontawesome-webfont.woff2" was not modified (f1f8d725)
+2020-03-23T16:09:11.6775032+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] Request finished in 183.5449ms 304 font/woff2 (791a596a)
+2020-03-23T16:09:22.9803504+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:09:22.9893670+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:09:23.0338216+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:09:23.1014774+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:09:23.1301020+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:09:23.2341008+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("24"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:09:23.4762594+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("9"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:09:23.5421380+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:09:23.5657185+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:09:23.6003240+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:09:23.6128589+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:09:23.6338524+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:09:23.6431857+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:09:23.6488066+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 545.0224ms. (50a9e262)
+2020-03-23T16:09:23.6647338+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:09:23.7319438+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 695.8873ms (afa2e885)
+2020-03-23T16:09:23.7359270+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:09:23.7403729+07:00 80000002-0003-ff00-b63f-84710c7967bb [INF] Request finished in 760.877ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:09:23.7670317+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:09:23.7837622+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:09:23.7935760+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:09:23.7971334+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:09:23.8006389+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3682ms. (50a9e262)
+2020-03-23T16:09:23.8133870+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:09:23.8997423+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 95.9207ms. (f66409e9)
+2020-03-23T16:09:23.9100188+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 106.2312ms (afa2e885)
+2020-03-23T16:09:23.9124118+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:09:23.9161412+07:00 80000006-0000-fa00-b63f-84710c7967bb [INF] Request finished in 152.6319ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:09:23.9424832+07:00 80000004-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Administrator   (ca22a1cb)
+2020-03-23T16:09:23.9438603+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.css   (ca22a1cb)
+2020-03-23T16:09:23.9453031+07:00 80000002-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/images/img.jpg   (ca22a1cb)
+2020-03-23T16:09:23.9483231+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] The file "/lib/bootstrap-daterangepicker/daterangepicker.css" was not modified (f1f8d725)
+2020-03-23T16:09:23.9931677+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Request finished in 15.2364ms 304 text/css (791a596a)
+2020-03-23T16:09:23.9964884+07:00 80000002-0003-fe00-b63f-84710c7967bb [INF] The file "/admin-side/images/img.jpg" was not modified (f1f8d725)
+2020-03-23T16:09:23.9998370+07:00 80000004-0003-ff00-b63f-84710c7967bb [INF] Request finished in 60.1491ms 404  (791a596a)
+2020-03-23T16:09:24.0078366+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.js   (ca22a1cb)
+2020-03-23T16:09:24.0143456+07:00 80000002-0003-fe00-b63f-84710c7967bb [INF] Request finished in 65.294ms 304 image/jpeg (791a596a)
+2020-03-23T16:09:24.0474949+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/Chart.js/Chart.js   (ca22a1cb)
+2020-03-23T16:09:24.0668193+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-sparklines/jquery.sparkline.js   (ca22a1cb)
+2020-03-23T16:09:24.0738338+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/moment.js/moment.js   (ca22a1cb)
+2020-03-23T16:09:24.0774652+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] The file "/lib/jquery-sparklines/jquery.sparkline.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.0835077+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] The file "/lib/moment.js/moment.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.0941998+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request finished in 64.3254ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.1012460+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request finished in 70.6843ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.1073768+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] The file "/lib/nprogress/nprogress.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.1116620+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2020-03-23T16:09:24.1152050+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootbox.js/bootbox.js   (ca22a1cb)
+2020-03-23T16:09:24.1183006+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] The file "/lib/bootstrap-daterangepicker/daterangepicker.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.1419016+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] Request finished in 114.0688ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.1458085+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] Request finished in 17.2805ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.1490557+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] The file "/lib/bootbox.js/bootbox.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.1574527+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/js/custom.js   (ca22a1cb)
+2020-03-23T16:09:24.1727319+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] Request finished in 44.0007ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.1789740+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/fastclick/fastclick.js   (ca22a1cb)
+2020-03-23T16:09:24.1805464+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] The file "/admin-side/js/custom.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.1889160+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] The file "/lib/Chart.js/Chart.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.2475217+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] The file "/lib/fastclick/fastclick.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.2582604+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] Request finished in 36.5407ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.2788541+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Request finished in 95.089ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.2838144+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Request finished in 194.1753ms 304 application/javascript (791a596a)
+2020-03-23T16:09:24.2863554+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2020-03-23T16:09:24.2959556+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2020-03-23T16:09:24.3112563+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Request finished in 305.9927ms 304 application/javascript (791a596a)
+2020-03-23T16:11:02.5820275+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:11:02.5820273+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:11:02.7031172+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:11:02.7067836+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:11:02.7375338+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:11:02.7375438+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:11:02.7576835+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:11:02.7633463+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:11:02.7680319+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:11:02.7772885+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:11:02.7841942+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.7203ms. (50a9e262)
+2020-03-23T16:11:02.7947581+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:11:02.8085274+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 57.5099ms (afa2e885)
+2020-03-23T16:11:02.8125460+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:11:02.8305423+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:11:02.8374165+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Request finished in 269.6902ms 0  (791a596a)
+2020-03-23T16:11:02.9491885+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 141.6599ms. (f66409e9)
+2020-03-23T16:11:02.9529467+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 212.9519ms (afa2e885)
+2020-03-23T16:11:02.9553982+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:11:02.9611711+07:00 80000006-0000-f100-b63f-84710c7967bb [INF] Request finished in 395.5748ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:11:11.3545254+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:11:11.3631262+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:11:11.3887779+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:11:11.4515121+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:11:11.4787835+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:11:11.5623813+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:11:11.7425461+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:11:11.7965030+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:11:11.8210683+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:11:11.8561258+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:11:11.8708092+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:11:11.8865778+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:11:11.8928734+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:11:11.8986948+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 444.8494ms. (50a9e262)
+2020-03-23T16:11:11.9116864+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:11:11.9668249+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 575.7048ms (afa2e885)
+2020-03-23T16:11:11.9707132+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:11:11.9733315+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Request finished in 620.3314ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:11:11.9974046+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:11:12.0072624+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:11:12.0122982+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:11:12.0149866+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:11:12.0178402+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4274ms. (50a9e262)
+2020-03-23T16:11:12.0311690+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:13:32.3055766+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:13:32.3055766+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:13:32.4246786+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:13:32.4254580+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:13:32.4701308+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:13:32.4701232+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:13:32.4940106+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:13:32.4986277+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:13:32.5006352+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:13:32.5113655+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6945ms. (50a9e262)
+2020-03-23T16:13:32.5119895+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:13:32.5229910+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:13:32.5298372+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 52.7367ms (afa2e885)
+2020-03-23T16:13:32.5329167+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:13:32.5442601+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request finished in 248.8409ms 0  (791a596a)
+2020-03-23T16:13:32.5491974+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:13:32.7112430+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 190.586ms. (f66409e9)
+2020-03-23T16:13:32.7140213+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 241.4318ms (afa2e885)
+2020-03-23T16:13:32.7163164+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:13:32.7449586+07:00 80000009-0000-fa00-b63f-84710c7967bb [INF] Request finished in 442.0416ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:14:06.2000720+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:14:06.2108863+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:14:06.2390239+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:14:06.3062401+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:14:06.3387136+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:14:06.4475314+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("20"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:14:06.7053909+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:14:06.7944472+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:14:06.8368486+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:14:06.8784707+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:14:06.8892619+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:14:06.9032115+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:14:06.9114150+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:14:06.9182619+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 609.4527ms. (50a9e262)
+2020-03-23T16:14:06.9345704+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:14:07.0074307+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 765.0672ms (afa2e885)
+2020-03-23T16:14:07.0114585+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:14:07.0142857+07:00 80000004-0002-fb00-b63f-84710c7967bb [INF] Request finished in 814.3931ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:14:07.0397482+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:14:07.0527914+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:14:07.0605958+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:14:07.0634822+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:14:07.0664747+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4707ms. (50a9e262)
+2020-03-23T16:14:07.0851860+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:14:19.4072540+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:14:19.7765982+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 12713.0694ms (afa2e885)
+2020-03-23T16:14:19.7871007+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:14:19.8964236+07:00 8000000a-0003-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Missing map from LeHieuCoreApp.Data.Entities.Function to LeHieuCoreApp.Application.ViewModels.System.FunctionViewModel. Create using Mapper.CreateMap<Function, FunctionViewModel>.
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpressionCore(ExpressionRequest request, Expression instanceParameter, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps, TypeMap& typeMap)
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpression(ExpressionRequest request, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.GetMapExpression(Type sourceType, Type destinationType, IDictionary`2 parameters, MemberInfo[] membersToExpand)
+   at AutoMapper.QueryableExtensions.ProjectionExpression.To[TResult](IDictionary`2 parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, Expression`1[] membersToExpand)
+   at LeHieuCoreApp.Application.Implementation.FunctionService.GetAll() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp.Application\Implementation\FunctionService.cs:line 28
+   at LeHieuCoreApp.Areas.Admin.Components.SideBarViewComponent.InvokeAsync() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Components\SideBarViewComponent.cs:line 28
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.<ExecuteAsync>b__30_1() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-23T16:14:25.9219162+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request finished in 18875.6598ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:23:04.6556401+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:23:04.6547098+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:23:04.9681448+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:23:05.0506244+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:23:05.2020675+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:23:05.2112128+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:23:05.2535980+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:23:05.2703322+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:23:05.2850356+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:23:05.2925533+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.2801ms. (50a9e262)
+2020-03-23T16:23:05.3027625+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:23:05.3283726+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:23:05.3681947+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:23:05.3689275+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 126.1004ms (afa2e885)
+2020-03-23T16:23:05.3783754+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:23:05.4020321+07:00 8000000b-0000-fa00-b63f-84710c7967bb [INF] Request finished in 762.7457ms 0  (791a596a)
+2020-03-23T16:23:05.6418160+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 320.2446ms. (f66409e9)
+2020-03-23T16:23:05.6594858+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 431.3237ms (afa2e885)
+2020-03-23T16:23:05.8324719+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:23:05.9481368+07:00 8000000d-0000-fa00-b63f-84710c7967bb [INF] Request finished in 1227.0979ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:23:20.5189582+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:23:20.5335596+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:23:20.5644575+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:23:20.6270256+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:23:20.6495020+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:23:20.7266905+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("15"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:23:20.9120483+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:23:20.9916259+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:23:21.0166173+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:23:21.0462113+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:23:21.0561290+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:23:21.0685173+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:23:21.0745226+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:23:21.0799980+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 450.4476ms. (50a9e262)
+2020-03-23T16:23:21.0925485+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:23:21.1584450+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 590.8541ms (afa2e885)
+2020-03-23T16:23:21.1635232+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:23:21.1670479+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Request finished in 648.2103ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:23:21.1884143+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:23:21.2065367+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:23:21.2136992+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:23:21.2167904+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:23:21.2197526+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3876ms. (50a9e262)
+2020-03-23T16:23:21.2280853+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:23:32.7600387+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:23:33.0901006+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 11874.0278ms (afa2e885)
+2020-03-23T16:23:33.0983143+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:23:33.1749397+07:00 8000000f-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Missing map from LeHieuCoreApp.Data.Entities.Function to LeHieuCoreApp.Application.ViewModels.System.FunctionViewModel. Create using Mapper.CreateMap<Function, FunctionViewModel>.
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpressionCore(ExpressionRequest request, Expression instanceParameter, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps, TypeMap& typeMap)
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpression(ExpressionRequest request, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.GetMapExpression(Type sourceType, Type destinationType, IDictionary`2 parameters, MemberInfo[] membersToExpand)
+   at AutoMapper.QueryableExtensions.ProjectionExpression.To[TResult](IDictionary`2 parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, Expression`1[] membersToExpand)
+   at LeHieuCoreApp.Application.Implementation.FunctionService.GetAll() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp.Application\Implementation\FunctionService.cs:line 28
+   at LeHieuCoreApp.Areas.Admin.Components.SideBarViewComponent.InvokeAsync() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Components\SideBarViewComponent.cs:line 28
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.<ExecuteAsync>b__30_1() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-23T16:23:44.0603751+07:00 8000000f-0000-fa00-b63f-84710c7967bb [INF] Request finished in 22870.7068ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:25:53.5106689+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:25:53.5106690+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:25:53.6212621+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:25:53.6263348+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:25:53.6582618+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:25:53.6582618+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:25:53.6787298+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:25:53.6814843+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:25:53.6866839+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:25:53.6965311+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:25:53.6976047+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6802ms. (50a9e262)
+2020-03-23T16:25:53.7054483+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:25:53.7143905+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 46.852ms (afa2e885)
+2020-03-23T16:25:53.7174333+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:25:53.7339432+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:25:53.7384148+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Request finished in 238.2621ms 0  (791a596a)
+2020-03-23T16:25:53.8507122+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 140.6075ms. (f66409e9)
+2020-03-23T16:25:53.8549178+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 192.6207ms (afa2e885)
+2020-03-23T16:25:53.8592169+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:25:53.8689126+07:00 80000008-0001-fe00-b63f-84710c7967bb [INF] Request finished in 367.8355ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:26:00.4327836+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:26:00.4417005+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:26:00.4680568+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:26:00.5379787+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:26:00.5620151+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:26:00.6359616+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:26:00.8194821+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:26:00.8707967+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:26:00.8931620+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:26:00.9232592+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:26:00.9356394+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:26:00.9496402+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:26:00.9566515+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:26:00.9632060+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 422.529ms. (50a9e262)
+2020-03-23T16:26:00.9762087+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:26:01.0365945+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 565.7617ms (afa2e885)
+2020-03-23T16:26:01.0411151+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:26:01.0442089+07:00 8000000a-0001-fe00-b63f-84710c7967bb [INF] Request finished in 611.892ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:26:01.0656721+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:26:01.0776328+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:26:01.0814313+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:26:01.0849947+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:26:01.0890737+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7938ms. (50a9e262)
+2020-03-23T16:26:01.0965070+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:26:03.2909737+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:26:03.4608886+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 2376.9427ms (afa2e885)
+2020-03-23T16:26:03.4642850+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:26:03.5694051+07:00 80000006-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Missing map from LeHieuCoreApp.Data.Entities.Function to LeHieuCoreApp.Application.ViewModels.System.FunctionViewModel. Create using Mapper.CreateMap<Function, FunctionViewModel>.
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpressionCore(ExpressionRequest request, Expression instanceParameter, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps, TypeMap& typeMap)
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpression(ExpressionRequest request, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.GetMapExpression(Type sourceType, Type destinationType, IDictionary`2 parameters, MemberInfo[] membersToExpand)
+   at AutoMapper.QueryableExtensions.ProjectionExpression.To[TResult](IDictionary`2 parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, Expression`1[] membersToExpand)
+   at LeHieuCoreApp.Application.Implementation.FunctionService.GetAll() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp.Application\Implementation\FunctionService.cs:line 28
+   at LeHieuCoreApp.Areas.Admin.Components.SideBarViewComponent.InvokeAsync() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Components\SideBarViewComponent.cs:line 28
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.<ExecuteAsync>b__30_1() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-23T16:26:03.6533641+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Request finished in 2584.1559ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:31:36.3143233+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:31:36.3143233+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:31:36.4397889+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:31:36.4483525+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:31:36.4835257+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:31:36.4834784+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:31:36.5068621+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:31:36.5116771+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:31:36.5140716+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:31:36.5248154+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:31:36.5250450+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8739ms. (50a9e262)
+2020-03-23T16:31:36.5374930+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:31:36.5457854+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 54.0101ms (afa2e885)
+2020-03-23T16:31:36.5489902+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:31:36.5647428+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:31:36.5714378+07:00 8000000c-0001-fe00-b63f-84710c7967bb [INF] Request finished in 269.3642ms 0  (791a596a)
+2020-03-23T16:31:36.6869170+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 149.3882ms. (f66409e9)
+2020-03-23T16:31:36.6900085+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 203.8618ms (afa2e885)
+2020-03-23T16:31:36.6959359+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:31:36.7060409+07:00 8000000e-0001-fe00-b63f-84710c7967bb [INF] Request finished in 402.713ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:31:43.1213678+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:31:43.1286155+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:31:43.1598647+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:31:43.2168897+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:31:43.2431858+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:31:43.3129764+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:31:43.4900714+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:31:43.5522141+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:31:43.5782890+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:31:43.6111430+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:31:43.6211144+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:31:43.6364374+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:31:43.6420479+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:31:43.6472740+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 428.1695ms. (50a9e262)
+2020-03-23T16:31:43.6592084+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:31:43.7118802+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 549.3923ms (afa2e885)
+2020-03-23T16:31:43.7157849+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:31:43.7185492+07:00 80000011-0000-fa00-b63f-84710c7967bb [INF] Request finished in 598.6218ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:31:43.7412618+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:31:43.7521902+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:31:43.7576656+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:31:43.7605977+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:31:43.7636246+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4006ms. (50a9e262)
+2020-03-23T16:31:43.7725185+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:31:54.2316602+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:31:54.5794595+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 10819.5708ms (afa2e885)
+2020-03-23T16:31:54.5873264+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:31:54.6685443+07:00 80000013-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Missing map from LeHieuCoreApp.Data.Entities.Function to LeHieuCoreApp.Application.ViewModels.System.FunctionViewModel. Create using Mapper.CreateMap<Function, FunctionViewModel>.
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpressionCore(ExpressionRequest request, Expression instanceParameter, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps, TypeMap& typeMap)
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpression(ExpressionRequest request, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.GetMapExpression(Type sourceType, Type destinationType, IDictionary`2 parameters, MemberInfo[] membersToExpand)
+   at AutoMapper.QueryableExtensions.ProjectionExpression.To[TResult](IDictionary`2 parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, Expression`1[] membersToExpand)
+   at LeHieuCoreApp.Application.Implementation.FunctionService.GetAll() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp.Application\Implementation\FunctionService.cs:line 28
+   at LeHieuCoreApp.Areas.Admin.Components.SideBarViewComponent.InvokeAsync() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Components\SideBarViewComponent.cs:line 28
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.<ExecuteAsync>b__30_1() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-23T16:31:56.9272158+07:00 80000013-0000-fa00-b63f-84710c7967bb [INF] Request finished in 13181.246ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:42:30.8883110+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:42:31.0034884+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:42:31.0234526+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:42:31.0476858+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:42:31.0506589+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:42:31.0640620+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:42:31.0799074+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:42:31.0874928+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 56.38ms (afa2e885)
+2020-03-23T16:42:31.0914565+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:42:31.1120409+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2020-03-23T16:42:31.1259650+07:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Request finished in 244.1249ms 302  (791a596a)
+2020-03-23T16:42:31.1286909+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-03-23T16:42:31.2068707+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-03-23T16:42:31.2442439+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-03-23T16:42:31.2600737+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-03-23T16:42:31.2645799+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-03-23T16:42:31.2705468+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-03-23T16:42:31.2738871+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-03-23T16:42:31.6794053+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 470.2474ms (02e01280)
+2020-03-23T16:42:31.6820157+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-03-23T16:42:31.6895268+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Request finished in 577.3499ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:43:09.5326316+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:43:09.5430096+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:43:09.5532185+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:43:09.5681378+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:43:09.5780433+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.815ms. (50a9e262)
+2020-03-23T16:43:09.5986982+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:43:09.6453946+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 61.7423ms. (f66409e9)
+2020-03-23T16:43:09.6505888+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 92.4425ms (afa2e885)
+2020-03-23T16:43:09.6548968+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:43:09.6588073+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Request finished in 127.8924ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:43:17.1784662+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:43:17.1871490+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:43:17.2011656+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:43:17.2449199+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:43:17.2732571+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:43:17.3480084+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:43:17.5247966+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:43:17.5801043+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:43:17.6051514+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:43:17.6314097+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:43:17.6411594+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:43:17.6527581+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:43:17.6598878+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:43:17.6658866+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 417.9405ms. (50a9e262)
+2020-03-23T16:43:17.6790202+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:43:17.7346666+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 531.0709ms (afa2e885)
+2020-03-23T16:43:17.7389907+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:43:17.7488454+07:00 80000008-0001-fa00-b63f-84710c7967bb [INF] Request finished in 570.9491ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:43:17.7748798+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:43:17.7898935+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:43:17.7947540+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:43:17.8020122+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:43:17.8056094+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5317ms. (50a9e262)
+2020-03-23T16:43:17.8187969+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:43:20.6087429+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:43:20.7975197+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 3000.4609ms (afa2e885)
+2020-03-23T16:43:20.8000352+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:43:20.8748160+07:00 8000000a-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Missing map from LeHieuCoreApp.Data.Entities.Function to LeHieuCoreApp.Application.ViewModels.System.FunctionViewModel. Create using Mapper.CreateMap<Function, FunctionViewModel>.
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpressionCore(ExpressionRequest request, Expression instanceParameter, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps, TypeMap& typeMap)
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.CreateMapExpression(ExpressionRequest request, IDictionary`2 typePairCount, LetPropertyMaps letPropertyMaps)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.QueryableExtensions.ExpressionBuilder.GetMapExpression(Type sourceType, Type destinationType, IDictionary`2 parameters, MemberInfo[] membersToExpand)
+   at AutoMapper.QueryableExtensions.ProjectionExpression.To[TResult](IDictionary`2 parameters, IEnumerable`1 memberPathsToExpand)
+   at AutoMapper.QueryableExtensions.Extensions.ProjectTo[TDestination](IQueryable source, Expression`1[] membersToExpand)
+   at LeHieuCoreApp.Application.Implementation.FunctionService.GetAll() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp.Application\Implementation\FunctionService.cs:line 28
+   at LeHieuCoreApp.Areas.Admin.Components.SideBarViewComponent.InvokeAsync() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Components\SideBarViewComponent.cs:line 28
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.<ExecuteAsync>b__30_1() in C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\Areas\Admin\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-23T16:43:20.9488236+07:00 8000000a-0001-fa00-b63f-84710c7967bb [INF] Request finished in 3170.5619ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:55:51.2511891+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-23T16:55:51.2511891+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-23T16:55:51.4184966+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:55:51.4184966+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:55:51.4593333+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:55:51.4604129+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:55:51.4869068+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-23T16:55:51.4901051+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-23T16:55:51.4930037+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:55:51.5073276+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.3432ms. (50a9e262)
+2020-03-23T16:55:51.5085929+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-23T16:55:51.5198128+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-23T16:55:51.5306728+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 59.5222ms (afa2e885)
+2020-03-23T16:55:51.5338397+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:55:51.5468277+07:00 80000006-0003-ff00-b63f-84710c7967bb [INF] Request finished in 308.4706ms 0  (791a596a)
+2020-03-23T16:55:51.5534850+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:55:51.7248640+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 204.0378ms. (f66409e9)
+2020-03-23T16:55:51.7309012+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 266.6576ms (afa2e885)
+2020-03-23T16:55:51.7333865+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:55:51.7533201+07:00 80000011-0001-fe00-b63f-84710c7967bb [INF] Request finished in 514.403ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-23T16:56:03.7567636+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-23T16:56:03.7663960+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:56:03.7937662+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:56:03.8636723+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:56:03.8912846+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:56:03.9716987+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("16"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-23T16:56:04.1723535+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-23T16:56:04.2328881+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:56:04.2572604+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-23T16:56:04.2920174+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-23T16:56:04.3031379+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-23T16:56:04.3190568+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-23T16:56:04.3254364+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-23T16:56:04.3316916+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 465.3377ms. (50a9e262)
+2020-03-23T16:56:04.3477110+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-23T16:56:04.4145397+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 617.1084ms (afa2e885)
+2020-03-23T16:56:04.4192510+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:56:04.4225848+07:00 80000015-0000-fa00-b63f-84710c7967bb [INF] Request finished in 666.2365ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-23T16:56:04.4390132+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-23T16:56:04.4661889+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-23T16:56:04.4706630+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-23T16:56:04.4733579+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-23T16:56:04.4761035+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4346ms. (50a9e262)
+2020-03-23T16:56:04.4908627+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-23T16:56:13.7477893+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-23T16:56:13.8168423+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-23T16:56:35.1648159+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 30686.0787ms. (f66409e9)
+2020-03-23T16:56:35.1924079+07:00 80000013-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Administrator   (ca22a1cb)
+2020-03-23T16:56:35.2081976+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 30723.1686ms (afa2e885)
+2020-03-23T16:56:35.2153038+07:00 80000013-0001-fe00-b63f-84710c7967bb [INF] Request finished in 10.0444ms 404  (791a596a)
+2020-03-23T16:56:35.2173099+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-23T16:56:41.1505192+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Request finished in 36710.763ms 200 text/html; charset=utf-8 (791a596a)

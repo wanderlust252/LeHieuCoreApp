@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeHieuCoreApp.Infrastructure.SharedKernel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
@@ -6,8 +7,30 @@ using System.Text;
 namespace LeHieuCoreApp.Data.Entities
 {
     [Table("BillDetails")]
-    public class BillDetail
+    public class BillDetail : DomainEntity<int>
     {
+        public BillDetail() { }
+
+        public BillDetail(int id, int billId, int productId, int quantity, decimal price, int colorId, int sizeId)
+        {
+            Id = id;
+            BillId = billId;
+            ProductId = productId;
+            Quantity = quantity;
+            Price = price;
+            ColorId = colorId;
+            SizeId = sizeId;
+        }
+
+        public BillDetail(int billId, int productId, int quantity, decimal price, int colorId, int sizeId)
+        {
+            BillId = billId;
+            ProductId = productId;
+            Quantity = quantity;
+            Price = price;
+            ColorId = colorId;
+            SizeId = sizeId;
+        }
         public int BillId { set; get; }
 
         public int ProductId { set; get; }
@@ -19,6 +42,7 @@ namespace LeHieuCoreApp.Data.Entities
         public int ColorId { get; set; }
 
         public int SizeId { get; set; }
+
         [ForeignKey("BillId")]
         public virtual Bill Bill { set; get; }
 

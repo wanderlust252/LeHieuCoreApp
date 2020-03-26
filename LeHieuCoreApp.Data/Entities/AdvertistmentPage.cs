@@ -1,4 +1,4 @@
-﻿using LeHieuCoreApp.Infrastruture.SharedKernel;
+﻿using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,3 +14,4 @@ namespace LeHieuCoreApp.Data.Entities
         public virtual ICollection<AdvertistmentPosition> AdvertistmentPositions { get; set; }
     }
 }
+

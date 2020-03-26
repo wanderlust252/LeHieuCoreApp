@@ -1,6 +1,6 @@
 ﻿using LeHieuCoreApp.Data.Enums;
 using LeHieuCoreApp.Data.Interfaces;
-using LeHieuCoreApp.Infrastruture.SharedKernel;
+using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -25,7 +25,7 @@ namespace LeHieuCoreApp.Data.Entities
         public string Content { set; get; }
 
         [StringLength(450)]
-        public string UserId { set; get; }
+        public Guid UserId { set; get; }
 
         [ForeignKey("UserId")]
         public virtual AppUser AppUser { get; set; }

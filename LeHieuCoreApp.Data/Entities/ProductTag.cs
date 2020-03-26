@@ -1,4 +1,4 @@
-﻿using LeHieuCoreApp.Infrastruture.SharedKernel;
+﻿using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,8 +11,8 @@ namespace LeHieuCoreApp.Data.Entities
     {
         public int ProductId { get; set; }
 
-        [StringLength(50)]
-        [Column(TypeName = "varchar")]
+        [StringLength(255)]
+        [Column(TypeName = "varchar(255)")]
         public string TagId { set; get; }
 
         [ForeignKey("ProductId")]

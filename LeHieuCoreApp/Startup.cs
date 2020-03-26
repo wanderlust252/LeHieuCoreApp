@@ -20,6 +20,9 @@ using LeHieuCoreApp.Application.Interfaces;
 using LeHieuCoreApp.Application.Implementation;
 using LeHieuCoreApp.Data.IRepositories;
 using LeHieuCoreApp.Data.EF.Repositories;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
+using LeHieuCoreApp.Helpers;
 
 namespace LeHieuCoreApp
 {
@@ -49,19 +52,49 @@ namespace LeHieuCoreApp
             services.AddIdentity<AppUser,AppRole>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<AppDbContext>();
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+
+                // Lockout settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+                options.Lockout.MaxFailedAccessAttempts = 10;
+
+                // User settings
+                options.User.RequireUniqueEmail = true;
+            });
+            services.AddAutoMapper();
+            // Add application services.
+            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+            services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
+            services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
+
             services.AddSingleton(Mapper.Configuration);
             services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
             services.AddTransient<DbInitializer>();
-            services.AddTransient<IProductCategoryRepository,ProductCategoryRepository>();
-            services.AddTransient<IProductCategoryService,ProductCategoryService>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+            //Repositories
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddTransient<IFunctionRepository, FunctionRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            //Services
+            services.AddTransient<IProductCategoryService, ProductCategoryService>();
+            services.AddTransient<IFunctionService, FunctionService>();
+            services.AddTransient<IProductService, ProductService>();
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,DbInitializer dbInitializer)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory loggerFactory )
         {
+            loggerFactory.AddFile("Logs/lehieu-{Date}.txt");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -85,8 +118,9 @@ namespace LeHieuCoreApp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-            });
-            dbInitializer.Seed().Wait();
+                routes.MapRoute(name: "areaRoute",
+                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+            }); 
         }
     }
 }

@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using LeHieuCoreApp.Application.ViewModels.Product;
+using LeHieuCoreApp.Utilities.Dtos;
+
+namespace LeHieuCoreApp.Application.Interfaces
+{
+    public interface IProductService : IDisposable
+    {
+        List<ProductViewModel> GetAll();
+        PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize);
+    }
+}

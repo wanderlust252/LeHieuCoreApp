@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using LeHieuCoreApp.Application.ViewModels.Product;
+using LeHieuCoreApp.Application.ViewModels.System;
 using LeHieuCoreApp.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace LeHieuCoreApp.Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<ProductCategory, ProductCategoryViewModel>();
+            CreateMap<Function, FunctionViewModel>();
+            CreateMap<Product, ProductViewModel>();
         }
     }
 }

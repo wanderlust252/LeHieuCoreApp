@@ -1,4 +1,4 @@
-﻿using LeHieuCoreApp.Infrastruture.Interfaces;
+﻿using LeHieuCoreApp.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;

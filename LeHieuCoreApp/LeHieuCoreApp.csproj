@@ -9,8 +9,13 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
   </ItemGroup>
 
 
@@ -18,8 +23,11 @@
     <ProjectReference Include="..\LeHieuCoreApp.Application\LeHieuCoreApp.Application.csproj" />
     <ProjectReference Include="..\LeHieuCoreApp.Data.EF\LeHieuCoreApp.Data.EF.csproj" />
     <ProjectReference Include="..\LeHieuCoreApp.Data\LeHieuCoreApp.Data.csproj" />
-    <ProjectReference Include="..\LeHieuCoreApp.Infrastruture\LeHieuCoreApp.Infrastruture.csproj" />
+    <ProjectReference Include="..\LeHieuCoreApp.Infrastructure\LeHieuCoreApp.Infrastructure.csproj" />
     <ProjectReference Include="..\LeHieuCoreApp.Utilities\LeHieuCoreApp.Utilities.csproj" />
   </ItemGroup>
+
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using LeHieuCoreApp.Data.Enums;
 using LeHieuCoreApp.Data.Interfaces;
-using LeHieuCoreApp.Infrastruture.SharedKernel;
+using LeHieuCoreApp.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,7 +40,7 @@ namespace LeHieuCoreApp.Data.Entities
         public virtual ProductCategory ProductCategory { get; set; }
         [StringLength(255)]
         public string SeoPageTitle { get; set; }
-        [Column(TypeName ="varchar")]
+        [Column(TypeName ="varchar(255)")]
         [StringLength(255)]
         public string SeoAlias { get; set; }
         [StringLength(255)]

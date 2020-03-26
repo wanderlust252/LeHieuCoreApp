@@ -12,7 +12,7 @@ namespace LeHieuCoreApp.Data.EF.Configurations
     {
         public override void Configure(EntityTypeBuilder<Tag> entity)
         {
-            entity.Property(c => c.Id).HasMaxLength(50).IsRequired().HasColumnType("vachar(50)");
+            entity.Property(c => c.Id).HasMaxLength(255).IsRequired().HasColumnType("varchar(255)");
         }
     }
 }
