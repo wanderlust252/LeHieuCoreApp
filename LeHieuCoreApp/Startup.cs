@@ -23,6 +23,7 @@ using LeHieuCoreApp.Data.EF.Repositories;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using LeHieuCoreApp.Helpers;
+using LeHieuCoreApp.Infrastructure.Interfaces;
 
 namespace LeHieuCoreApp
 {
@@ -80,6 +81,9 @@ namespace LeHieuCoreApp
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+
+            services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
+            services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
             //Repositories
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             services.AddTransient<IFunctionRepository, FunctionRepository>();
@@ -118,9 +122,10 @@ namespace LeHieuCoreApp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
                 routes.MapRoute(name: "areaRoute",
-                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-            }); 
+                    template: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
+            });
         }
     }
 }

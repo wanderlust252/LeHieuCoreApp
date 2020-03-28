@@ -3719,3 +3719,911 @@ ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
 2020-03-26T15:15:41.9470506+07:00 8000001b-0001-fb00-b63f-84710c7967bb [INF] Request finished in 65.8048ms 200 application/json; charset=utf-8 (791a596a)
 2020-03-26T15:15:41.9661844+07:00 8000000f-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
 2020-03-26T15:15:41.9707363+07:00 8000000f-0000-e700-b63f-84710c7967bb [INF] Request finished in 4.0942ms 404  (791a596a)
+2020-03-26T16:20:38.8551759+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-03-26T16:20:38.8551462+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-26T16:20:39.0145041+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:20:39.0186203+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:20:39.0555533+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:20:39.0555519+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:20:39.0824973+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:20:39.0824973+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:20:39.0891986+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:20:39.0891926+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:20:39.1052310+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:20:39.1053017+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:20:39.1197346+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:20:39.1209692+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:20:39.1333770+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 65.2094ms (afa2e885)
+2020-03-26T16:20:39.1333771+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 65.205ms (afa2e885)
+2020-03-26T16:20:39.1391290+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:20:39.1407513+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:20:39.1515801+07:00 80000015-0001-ef00-b63f-84710c7967bb [INF] Request finished in 310.8335ms 0  (791a596a)
+2020-03-26T16:20:39.1777112+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2Fadmin   (ca22a1cb)
+2020-03-26T16:20:39.1928914+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-03-26T16:20:39.1946825+07:00 80000017-0001-ef00-b63f-84710c7967bb [INF] Request finished in 351.0378ms 302  (791a596a)
+2020-03-26T16:20:39.2751288+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-03-26T16:20:39.3376570+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-03-26T16:20:39.3578435+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-03-26T16:20:39.3626436+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-03-26T16:20:39.3702229+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-03-26T16:20:39.3725422+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-03-26T16:20:39.7321124+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 454.3463ms (02e01280)
+2020-03-26T16:20:39.7347526+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-03-26T16:20:39.7430039+07:00 8000000e-0000-ee00-b63f-84710c7967bb [INF] Request finished in 570.0885ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:21:42.3119182+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2Fadmin   (ca22a1cb)
+2020-03-26T16:21:42.3345891+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-03-26T16:21:42.3378430+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-03-26T16:21:42.3457878+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-03-26T16:21:42.3501505+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-03-26T16:21:42.3534875+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-03-26T16:21:42.3560208+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-03-26T16:21:42.3584700+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-03-26T16:21:42.3722605+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 31.0405ms (02e01280)
+2020-03-26T16:21:42.3750692+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-03-26T16:21:42.3788442+07:00 80000019-0001-ef00-b63f-84710c7967bb [INF] Request finished in 73.4568ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:21:42.4568358+07:00 8000001b-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/favicon.ico   (ca22a1cb)
+2020-03-26T16:21:42.4874991+07:00 8000001b-0001-ef00-b63f-84710c7967bb [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\favicon.ico"' (27b0a520)
+2020-03-26T16:21:42.4899908+07:00 8000001b-0001-ef00-b63f-84710c7967bb [INF] Request finished in 33.3444ms 200 image/x-icon (791a596a)
+2020-03-26T16:21:47.3414599+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-03-26T16:21:47.3442293+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:21:47.3474228+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:21:47.3520192+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:21:47.3551792+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:21:47.3582666+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:21:47.3624453+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:21:47.3663631+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 14.9855ms (afa2e885)
+2020-03-26T16:21:47.3692398+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:21:47.3723249+07:00 8000001d-0001-ef00-b63f-84710c7967bb [INF] Request finished in 31.2858ms 302  (791a596a)
+2020-03-26T16:21:47.3814572+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2Fadmin   (ca22a1cb)
+2020-03-26T16:21:47.3843016+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-03-26T16:21:47.3876462+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-03-26T16:21:47.3906072+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-03-26T16:21:47.3953033+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-03-26T16:21:47.3984666+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-03-26T16:21:47.4012717+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-03-26T16:21:47.4047518+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-03-26T16:21:47.4106310+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 19.0979ms (02e01280)
+2020-03-26T16:21:47.4162329+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-03-26T16:21:47.4194823+07:00 8000001c-0003-fd00-b63f-84710c7967bb [INF] Request finished in 43.5516ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:22:07.1673713+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-26T16:22:07.1710913+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:07.1775592+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:07.1944157+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:22:07.2058839+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7929ms. (50a9e262)
+2020-03-26T16:22:07.2445089+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:22:07.2968265+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 76.7938ms. (f66409e9)
+2020-03-26T16:22:07.3007461+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 119.343ms (afa2e885)
+2020-03-26T16:22:07.3033348+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-26T16:22:07.3049043+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:07.3078199+07:00 8000001f-0001-ef00-b63f-84710c7967bb [INF] Request finished in 141.8721ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:22:07.3131340+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:07.3159418+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:07.3191616+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:22:07.3218658+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.15ms. (50a9e262)
+2020-03-26T16:22:07.3247326+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:22:07.3322657+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 5.1257ms. (f66409e9)
+2020-03-26T16:22:07.3365112+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 16.4085ms (afa2e885)
+2020-03-26T16:22:07.3407245+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:07.3441597+07:00 80000020-0002-f000-b63f-84710c7967bb [INF] Request finished in 42.5114ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:22:09.2580477+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-26T16:22:09.2624341+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:09.2737709+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:09.3252188+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:22:09.3388906+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:22:09.4224477+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("15"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-26T16:22:09.6318975+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-26T16:22:09.6863093+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:22:09.7180945+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-26T16:22:09.7586563+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-26T16:22:09.7696548+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:22:09.7845536+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-26T16:22:09.7907937+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-26T16:22:09.7965992+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 468.7988ms. (50a9e262)
+2020-03-26T16:22:09.8093792+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-26T16:22:09.8648850+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 588.3678ms (afa2e885)
+2020-03-26T16:22:09.8685428+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:09.8722934+07:00 8000001e-0003-fd00-b63f-84710c7967bb [INF] Request finished in 614.7122ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:22:09.8902848+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-26T16:22:09.9020026+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:09.9042128+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:09.9076313+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:22:09.9112230+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:22:09.9139865+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3918ms. (50a9e262)
+2020-03-26T16:22:09.9275068+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:22:09.9879165+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:22:10.0302420+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:22:10.1029399+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 185.3562ms. (f66409e9)
+2020-03-26T16:22:10.1168651+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 209.4599ms (afa2e885)
+2020-03-26T16:22:10.1210651+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:10.1256980+07:00 80000022-0002-f000-b63f-84710c7967bb [INF] Request finished in 239.931ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:22:10.1716761+07:00 80000024-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/Chart.js/Chart.js   (ca22a1cb)
+2020-03-26T16:22:10.1717228+07:00 8000000b-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/moment.js/moment.js   (ca22a1cb)
+2020-03-26T16:22:10.1760885+07:00 80000021-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2020-03-26T16:22:10.1818348+07:00 80000024-0002-f000-b63f-84710c7967bb [INF] The file "/lib/Chart.js/Chart.js" was not modified (f1f8d725)
+2020-03-26T16:22:10.1831926+07:00 80000021-0001-ef00-b63f-84710c7967bb [INF] The file "/lib/twbs-pagination/jquery.twbsPagination.js" was not modified (f1f8d725)
+2020-03-26T16:22:10.1854287+07:00 8000000b-0001-f400-b63f-84710c7967bb [INF] The file "/lib/moment.js/moment.js" was not modified (f1f8d725)
+2020-03-26T16:22:10.1943530+07:00 80000024-0002-f000-b63f-84710c7967bb [INF] Request finished in 25.5386ms 304 application/javascript (791a596a)
+2020-03-26T16:22:10.1943865+07:00 80000021-0001-ef00-b63f-84710c7967bb [INF] Request finished in 14.475ms 304 application/javascript (791a596a)
+2020-03-26T16:22:10.1967528+07:00 8000000b-0001-f400-b63f-84710c7967bb [INF] Request finished in 23.535ms 304 application/javascript (791a596a)
+2020-03-26T16:22:13.9844316+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/index   (ca22a1cb)
+2020-03-26T16:22:13.9913829+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:13.9963648+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:13.9998570+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:22:14.0070058+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:22:14.0100334+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4406ms. (50a9e262)
+2020-03-26T16:22:14.0172440+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:22:14.0435134+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:22:14.0513863+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:22:14.0646353+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 51.4538ms. (f66409e9)
+2020-03-26T16:22:14.0713243+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" in 68.643ms (afa2e885)
+2020-03-26T16:22:14.0741445+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:14.0788913+07:00 80000020-0003-fd00-b63f-84710c7967bb [INF] Request finished in 94.531ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:22:14.0964668+07:00 80000022-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/index.js   (ca22a1cb)
+2020-03-26T16:22:14.1012962+07:00 80000022-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-03-26T16:22:14.1060624+07:00 80000022-0003-fd00-b63f-84710c7967bb [INF] Request finished in 7.485ms 200 application/javascript (791a596a)
+2020-03-26T16:22:14.1899324+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=--Select%20category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:22:14.1959809+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:14.2050083+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:14.2088660+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:22:14.2165146+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Invalid (dad538d7)
+2020-03-26T16:22:14.2279409+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:22:14.2510980+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:22:14.3983678+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:22:14.4337533+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:22:14.4664377+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 246.8609ms. (50a9e262)
+2020-03-26T16:22:14.4799510+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:22:14.5469530+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 338.6894ms (afa2e885)
+2020-03-26T16:22:14.5497436+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:14.5549387+07:00 80000024-0003-fd00-b63f-84710c7967bb [INF] Request finished in 365.2741ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:22:14.5787417+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=--Select%20category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:22:14.5826831+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:22:14.5873421+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:22:14.5904277+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:22:14.5943990+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Invalid (dad538d7)
+2020-03-26T16:22:14.5988652+07:00 80000026-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:22:14.6002249+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:22:14.6071510+07:00 80000026-0003-fd00-b63f-84710c7967bb [INF] Request finished in 9.7395ms 404  (791a596a)
+2020-03-26T16:22:14.6098874+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:22:14.6148809+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:22:14.6203517+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:22:14.6241671+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 25.9022ms. (50a9e262)
+2020-03-26T16:22:14.6268541+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:22:14.6332473+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 41.0659ms (afa2e885)
+2020-03-26T16:22:14.6380633+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:22:14.6419280+07:00 8000000d-0001-f400-b63f-84710c7967bb [INF] Request finished in 62.6023ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:22:14.6642642+07:00 80000010-0000-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:22:14.6681002+07:00 80000010-0000-ee00-b63f-84710c7967bb [INF] Request finished in 4.1523ms 404  (791a596a)
+2020-03-26T16:33:24.4118867+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-03-26T16:33:24.4118867+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-26T16:33:24.5626556+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:33:24.5762201+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:33:24.6131330+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:33:24.6131319+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:33:24.6453933+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:33:24.6493459+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:33:24.6509188+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:33:24.6734714+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.7168ms. (50a9e262)
+2020-03-26T16:33:24.6848407+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:33:24.6996704+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:33:24.7143721+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 86.417ms (afa2e885)
+2020-03-26T16:33:24.7203533+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:33:24.7306266+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:33:24.7514225+07:00 80000026-0002-f000-b63f-84710c7967bb [INF] Request finished in 353.7609ms 0  (791a596a)
+2020-03-26T16:33:24.8977742+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 210.6261ms. (f66409e9)
+2020-03-26T16:33:24.9007755+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 285.1352ms (afa2e885)
+2020-03-26T16:33:24.9030266+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:33:24.9094978+07:00 8000000f-0001-f400-b63f-84710c7967bb [INF] Request finished in 512.6674ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:33:27.5374615+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-26T16:33:27.5435939+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:33:27.5692871+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:33:27.6291381+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:33:27.6415219+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:33:27.7343954+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("16"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-26T16:33:27.9797057+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("9"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-26T16:33:28.0370203+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:33:28.0589570+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-26T16:33:28.0955007+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-26T16:33:28.1108756+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:33:28.1292690+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-26T16:33:28.1380205+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-26T16:33:28.1445628+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 512.5711ms. (50a9e262)
+2020-03-26T16:33:28.1608646+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-26T16:33:28.2209773+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 648.8113ms (afa2e885)
+2020-03-26T16:33:28.2253659+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:33:28.2283912+07:00 80000028-0002-f000-b63f-84710c7967bb [INF] Request finished in 691.4602ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:33:28.2423163+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-26T16:33:28.2576673+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:33:28.2622969+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:33:28.2678813+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:33:28.2712911+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:33:28.2744924+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4039ms. (50a9e262)
+2020-03-26T16:33:28.2890508+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:33:28.3565468+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:33:28.3998330+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:33:28.4750607+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 196.3969ms. (f66409e9)
+2020-03-26T16:33:28.4901506+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 223.3095ms (afa2e885)
+2020-03-26T16:33:28.4928620+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:33:28.4963676+07:00 80000012-0000-e700-b63f-84710c7967bb [INF] Request finished in 255.7911ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:33:35.3520889+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/index   (ca22a1cb)
+2020-03-26T16:33:35.3560290+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:33:35.3626212+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:33:35.3659634+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:33:35.3729323+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" in 7.593ms (afa2e885)
+2020-03-26T16:33:35.3792760+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:33:35.4516246+07:00 80000014-0000-e700-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'LeHieuCoreApp.Infrastructure.Interfaces.IUnitOfWork' while attempting to activate 'LeHieuCoreApp.Application.Implementation.ProductCategoryService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-26T16:33:35.5230111+07:00 80000014-0000-e700-b63f-84710c7967bb [INF] Request finished in 171.4563ms 500 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:48:17.5922006+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/login   (ca22a1cb)
+2020-03-26T16:48:17.5922006+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-26T16:48:17.5922005+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-03-26T16:48:17.7498554+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:17.7590026+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:17.7606794+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:17.7935951+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:17.7935940+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:17.7942493+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:17.8204045+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:48:17.8241147+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:17.8241147+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:17.8292067+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:48:17.8430350+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.4573ms. (50a9e262)
+2020-03-26T16:48:17.8451961+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.4574ms. (50a9e262)
+2020-03-26T16:48:17.8604109+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:48:17.8741582+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:48:17.8849404+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 82.4736ms (afa2e885)
+2020-03-26T16:48:17.8893731+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:48:17.8903881+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:48:17.8921992+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:17.9014901+07:00 8000001a-0003-f800-b63f-84710c7967bb [INF] Request finished in 323.6971ms 0  (791a596a)
+2020-03-26T16:48:18.0186080+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 157.7401ms. (f66409e9)
+2020-03-26T16:48:18.0226201+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 225.3962ms (afa2e885)
+2020-03-26T16:48:18.0247415+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:18.0321596+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 171.5966ms. (f66409e9)
+2020-03-26T16:48:18.0352933+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 238.3004ms (afa2e885)
+2020-03-26T16:48:18.0395624+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:18.0526899+07:00 8000002c-0002-f000-b63f-84710c7967bb [INF] Request finished in 471.4589ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:48:18.0560136+07:00 8000002a-0002-f000-b63f-84710c7967bb [INF] Request finished in 471.4453ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:48:18.1397851+07:00 80000010-0002-e900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/login/index.js   (ca22a1cb)
+2020-03-26T16:48:18.1410539+07:00 8000002e-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/shared/lehieu.js   (ca22a1cb)
+2020-03-26T16:48:18.1525004+07:00 80000010-0002-e900-b63f-84710c7967bb [INF] The file "/app/controllers/login/index.js" was not modified (f1f8d725)
+2020-03-26T16:48:18.1555668+07:00 8000002e-0002-f000-b63f-84710c7967bb [INF] The file "/app/shared/lehieu.js" was not modified (f1f8d725)
+2020-03-26T16:48:18.1649743+07:00 8000002e-0002-f000-b63f-84710c7967bb [INF] Request finished in 25.7467ms 304 application/javascript (791a596a)
+2020-03-26T16:48:18.1700940+07:00 80000010-0002-e900-b63f-84710c7967bb [INF] Request finished in 26.844ms 304 application/javascript (791a596a)
+2020-03-26T16:48:19.8245448+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-26T16:48:19.8356208+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:19.8634503+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:19.9179969+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:19.9338935+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:20.0063758+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("15"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-26T16:48:20.2419811+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-26T16:48:20.3140808+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:48:20.3434244+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-26T16:48:20.3825508+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-26T16:48:20.3924599+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:48:20.4082927+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-26T16:48:20.4147996+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-26T16:48:20.4216282+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 501.5165ms. (50a9e262)
+2020-03-26T16:48:20.4342651+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-26T16:48:20.4930768+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 627.5196ms (afa2e885)
+2020-03-26T16:48:20.4967679+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:20.4992859+07:00 80000011-0001-f400-b63f-84710c7967bb [INF] Request finished in 675.5057ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:48:20.5210004+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-26T16:48:20.5317929+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:20.5381232+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:20.5415265+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:48:20.5449212+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:20.5477160+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5847ms. (50a9e262)
+2020-03-26T16:48:20.5564219+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:48:20.6247041+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:20.6685674+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:48:20.7474101+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 196.1006ms. (f66409e9)
+2020-03-26T16:48:20.7650457+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 221.4213ms (afa2e885)
+2020-03-26T16:48:20.7684109+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:20.7726869+07:00 80000013-0001-f400-b63f-84710c7967bb [INF] Request finished in 252.9537ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:48:20.8101181+07:00 80000016-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/moment.js/moment.js   (ca22a1cb)
+2020-03-26T16:48:20.8158801+07:00 80000016-0000-e700-b63f-84710c7967bb [INF] The file "/lib/moment.js/moment.js" was not modified (f1f8d725)
+2020-03-26T16:48:20.8212567+07:00 80000016-0000-e700-b63f-84710c7967bb [INF] Request finished in 11.8636ms 304 application/javascript (791a596a)
+2020-03-26T16:48:24.1291003+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/index   (ca22a1cb)
+2020-03-26T16:48:24.1345772+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:24.1392246+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:24.1424078+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:48:24.1457455+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:24.1534311+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.1982ms. (50a9e262)
+2020-03-26T16:48:24.1595209+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:48:24.1957790+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:24.2036133+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:48:24.2210998+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 59.6821ms. (f66409e9)
+2020-03-26T16:48:24.2248545+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" in 82.2107ms (afa2e885)
+2020-03-26T16:48:24.2294358+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:24.2352446+07:00 80000018-0000-e700-b63f-84710c7967bb [INF] Request finished in 106.8396ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:48:24.2547396+07:00 8000001c-0003-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/index.js   (ca22a1cb)
+2020-03-26T16:48:24.2635235+07:00 8000001c-0003-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-03-26T16:48:24.2684244+07:00 8000001c-0003-f800-b63f-84710c7967bb [INF] Request finished in 11.3169ms 200 application/javascript (791a596a)
+2020-03-26T16:48:24.3584832+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=--Select%20category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:48:24.3724172+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllCategories   (ca22a1cb)
+2020-03-26T16:48:24.3744516+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:24.3777215+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:24.3882701+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllCategories\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:24.3909564+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:24.3937899+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:48:24.4014292+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:48:24.4055388+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:24.4105238+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Invalid (dad538d7)
+2020-03-26T16:48:24.4337848+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:24.4358513+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:24.4565907+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:48:24.5634443+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2020-03-26T16:48:24.5960267+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2020-03-26T16:48:24.6035619+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:48:24.6245683+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 216.6117ms. (50a9e262)
+2020-03-26T16:48:24.6267934+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:48:24.6292438+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductCategoryViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:48:24.6415870+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 228.7845ms. (50a9e262)
+2020-03-26T16:48:24.6439758+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:48:24.6725629+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" in 281.5341ms (afa2e885)
+2020-03-26T16:48:24.6754263+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:24.6783186+07:00 80000030-0002-f000-b63f-84710c7967bb [INF] Request finished in 332.1941ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:48:24.6877618+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 294.5258ms (afa2e885)
+2020-03-26T16:48:24.6903277+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:24.6926175+07:00 80000012-0002-e900-b63f-84710c7967bb [INF] Request finished in 351.8906ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:48:24.7087071+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:48:24.7117908+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:48:24.7156367+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:48:24.7186606+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:48:24.7212079+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:48:24.7246422+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:48:24.7297637+07:00 8000001e-0003-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:48:24.7334620+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:48:24.7376554+07:00 8000001e-0003-f800-b63f-84710c7967bb [INF] Request finished in 9.656ms 404  (791a596a)
+2020-03-26T16:48:24.7401075+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:48:24.7443069+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:48:24.7522931+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.8641ms. (50a9e262)
+2020-03-26T16:48:24.7568765+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:48:24.7626006+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 42.6651ms (afa2e885)
+2020-03-26T16:48:24.7671272+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:48:24.7720235+07:00 80000014-0002-e900-b63f-84710c7967bb [INF] Request finished in 60.7078ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:10.1306873+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-03-26T16:53:10.2711186+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:10.2907114+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:10.3121325+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-03-26T16:53:10.3161075+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-03-26T16:53:10.3277011+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-03-26T16:53:10.3421640+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-03-26T16:53:10.3540971+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 51.767ms (afa2e885)
+2020-03-26T16:53:10.3568072+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:10.3836183+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2020-03-26T16:53:10.4014234+07:00 8000002a-0003-fd00-b63f-84710c7967bb [INF] Request finished in 268.0164ms 302  (791a596a)
+2020-03-26T16:53:10.4053756+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-03-26T16:53:10.5058529+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-03-26T16:53:10.5547170+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-03-26T16:53:10.5730024+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-03-26T16:53:10.5782044+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-03-26T16:53:10.5890760+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-03-26T16:53:10.5914405+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-03-26T16:53:11.0523138+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 540.5612ms (02e01280)
+2020-03-26T16:53:11.0560891+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-03-26T16:53:11.0629800+07:00 8000001a-0000-e700-b63f-84710c7967bb [INF] Request finished in 682.0653ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:53:18.7723690+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-03-26T16:53:18.7836777+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:18.7885308+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:18.8058702+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:18.8184447+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9586ms. (50a9e262)
+2020-03-26T16:53:18.8368233+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:53:18.9480087+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 75.3194ms. (f66409e9)
+2020-03-26T16:53:18.9837709+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 159.3836ms (afa2e885)
+2020-03-26T16:53:18.9866148+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:18.9955619+07:00 8000000e-0002-ef00-b63f-84710c7967bb [INF] Request finished in 217.3537ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:53:20.5240438+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-03-26T16:53:20.5314778+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:20.5495424+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:20.6247436+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:20.6394707+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:20.7470155+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("19"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-03-26T16:53:21.0515550+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-03-26T16:53:21.1314798+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:53:21.1669083+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-03-26T16:53:21.2122510+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-03-26T16:53:21.2237590+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-03-26T16:53:21.2355905+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-03-26T16:53:21.2444818+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-03-26T16:53:21.2505150+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 622.9141ms. (50a9e262)
+2020-03-26T16:53:21.2669259+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-03-26T16:53:21.3343396+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 782.8175ms (afa2e885)
+2020-03-26T16:53:21.3423461+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:21.3868210+07:00 8000002c-0003-fd00-b63f-84710c7967bb [INF] Request finished in 836.3013ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:21.4495317+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-03-26T16:53:21.4874648+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:21.4982692+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:21.5022778+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:21.5094630+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:21.5131396+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5759ms. (50a9e262)
+2020-03-26T16:53:21.5271558+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:53:21.6840118+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:21.7666870+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:53:21.8835237+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 367.6652ms. (f66409e9)
+2020-03-26T16:53:21.9024594+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 401.9529ms (afa2e885)
+2020-03-26T16:53:21.9105765+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:21.9138570+07:00 80000010-0002-ef00-b63f-84710c7967bb [INF] Request finished in 465.4391ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:53:24.0302602+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/index   (ca22a1cb)
+2020-03-26T16:53:24.0342686+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:24.0450650+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:24.0476476+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:24.0519655+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:24.0613873+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.5866ms. (50a9e262)
+2020-03-26T16:53:24.0682259+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-03-26T16:53:24.0988063+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:24.1098215+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-03-26T16:53:24.1267861+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 61.9475ms. (f66409e9)
+2020-03-26T16:53:24.1418107+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" in 84.3546ms (afa2e885)
+2020-03-26T16:53:24.1579834+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:24.1623972+07:00 80000012-0002-ef00-b63f-84710c7967bb [INF] Request finished in 137.2951ms 200 text/html; charset=utf-8 (791a596a)
+2020-03-26T16:53:24.1947159+07:00 80000015-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/index.js   (ca22a1cb)
+2020-03-26T16:53:24.2253613+07:00 80000015-0001-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-03-26T16:53:24.2291052+07:00 80000015-0001-f400-b63f-84710c7967bb [INF] Request finished in 33.0697ms 200 application/javascript (791a596a)
+2020-03-26T16:53:24.3168534+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=--Select%20category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:24.3248923+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllCategories   (ca22a1cb)
+2020-03-26T16:53:24.3472721+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:24.3491767+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:24.3644536+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:24.3821063+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllCategories\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:24.3836705+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:24.3909531+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:24.3974127+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:24.4006704+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Invalid (dad538d7)
+2020-03-26T16:53:24.4117396+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:24.4166031+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:24.4449588+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:53:24.6087488+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2020-03-26T16:53:24.6331291+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:24.6481972+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2020-03-26T16:53:24.6802769+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 276.9802ms. (50a9e262)
+2020-03-26T16:53:24.6819595+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("19"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:53:24.6902285+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductCategoryViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:24.7005398+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 295.6416ms. (50a9e262)
+2020-03-26T16:53:24.7134828+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:24.7592381+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" in 369.2015ms (afa2e885)
+2020-03-26T16:53:24.7631399+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:24.7775162+07:00 80000023-0001-ef00-b63f-84710c7967bb [INF] Request finished in 450.0681ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:24.7792602+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 408.6157ms (afa2e885)
+2020-03-26T16:53:24.7821235+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:24.8004317+07:00 80000017-0001-f400-b63f-84710c7967bb [INF] Request finished in 470.1045ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:24.8416111+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:24.8459690+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:24.8509057+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:24.8585911+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:24.8623318+07:00 8000002e-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:53:24.8637425+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:24.8670780+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:24.8768744+07:00 8000002e-0003-fd00-b63f-84710c7967bb [INF] Request finished in 9.7396ms 404  (791a596a)
+2020-03-26T16:53:24.8787935+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-03-26T16:53:24.8844749+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:24.8926189+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:53:24.9112076+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.3161ms. (50a9e262)
+2020-03-26T16:53:24.9148695+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:24.9256152+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 65.9485ms (afa2e885)
+2020-03-26T16:53:24.9289337+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:24.9319083+07:00 80000014-0002-ef00-b63f-84710c7967bb [INF] Request finished in 95.8552ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:24.9637678+07:00 80000030-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:53:24.9673167+07:00 80000030-0003-fd00-b63f-84710c7967bb [INF] Request finished in 3.3406ms 404  (791a596a)
+2020-03-26T16:53:27.0598708+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=1&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:27.0643294+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:27.0705670+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:27.0745927+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:27.0814042+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:27.0912507+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:27.1046615+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)" (0723d8ff)
+2020-03-26T16:53:27.1705867+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:27.1810332+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE ([x0].[Status] = 1) AND ([x0].[CategoryId] = @__categoryId_Value_0)
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:53:27.1880435+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 100.7485ms. (50a9e262)
+2020-03-26T16:53:27.1909491+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:27.1940427+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 121.3453ms (afa2e885)
+2020-03-26T16:53:27.1970325+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:27.2033763+07:00 8000001c-0000-e700-b63f-84710c7967bb [INF] Request finished in 142.2052ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:27.2217521+07:00 8000001e-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:53:27.2252779+07:00 8000001e-0000-e700-b63f-84710c7967bb [INF] Request finished in 8.0853ms 404  (791a596a)
+2020-03-26T16:53:31.0889227+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=1&keyword=&page=2&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:31.0925425+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:31.0949655+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:31.1005427+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:31.1034712+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:31.1060320+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:31.1093815+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("0"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)" (0723d8ff)
+2020-03-26T16:53:31.1620258+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:31.1673151+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 58.8807ms. (50a9e262)
+2020-03-26T16:53:31.1698694+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:31.1731478+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 75.3396ms (afa2e885)
+2020-03-26T16:53:31.1753740+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:31.1780398+07:00 80000032-0003-fd00-b63f-84710c7967bb [INF] Request finished in 90.3727ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:32.3177294+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=1&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:32.3213194+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:32.3243795+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:32.3269054+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:32.3340763+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:32.3365514+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:32.3397350+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("0"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)" (0723d8ff)
+2020-03-26T16:53:32.3437406+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE ([x].[Status] = 1) AND ([x].[CategoryId] = @__categoryId_Value_0)
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:32.3490008+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__categoryId_Value_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE ([x0].[Status] = 1) AND ([x0].[CategoryId] = @__categoryId_Value_0)
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:53:32.3523493+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.7122ms. (50a9e262)
+2020-03-26T16:53:32.3551583+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:32.3583901+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 31.5333ms (afa2e885)
+2020-03-26T16:53:32.3605856+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:32.3668826+07:00 80000019-0001-f400-b63f-84710c7967bb [INF] Request finished in 45.8108ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:32.3830909+07:00 80000034-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:53:32.3868018+07:00 80000034-0003-fd00-b63f-84710c7967bb [INF] Request finished in 7.8881ms 404  (791a596a)
+2020-03-26T16:53:37.0196945+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=1&keyword=1&page=1&pageSize=10   (ca22a1cb)
+2020-03-26T16:53:37.0227446+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-03-26T16:53:37.0299508+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-03-26T16:53:37.0331028+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-03-26T16:53:37.0357232+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-03-26T16:53:37.0386245+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-03-26T16:53:37.0653019+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=["@__keyword_0='?' (Size = 4000), @__categoryId_Value_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE (([x].[Status] = 1) AND ((CHARINDEX(@__keyword_0, [x].[Name]) > 0) OR (@__keyword_0 = N''))) AND ([x].[CategoryId] = @__categoryId_Value_1)" (0723d8ff)
+2020-03-26T16:53:37.1221782+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__keyword_0='?' (Size = 4000), @__categoryId_Value_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE (([x].[Status] = 1) AND ((CHARINDEX(@__keyword_0, [x].[Name]) > 0) OR (@__keyword_0 = N''))) AND ([x].[CategoryId] = @__categoryId_Value_1)
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY" (0723d8ff)
+2020-03-26T16:53:37.1352662+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__keyword_0='?' (Size = 4000), @__categoryId_Value_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE (([x0].[Status] = 1) AND ((CHARINDEX(@__keyword_0, [x0].[Name]) > 0) OR (@__keyword_0 = N''))) AND ([x0].[CategoryId] = @__categoryId_Value_1)
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-03-26T16:53:37.1380870+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 99.9844ms. (50a9e262)
+2020-03-26T16:53:37.1430398+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-03-26T16:53:37.1483266+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 114.4333ms (afa2e885)
+2020-03-26T16:53:37.1504739+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-03-26T16:53:37.1527009+07:00 80000020-0000-e700-b63f-84710c7967bb [INF] Request finished in 133.8912ms 200 application/json; charset=utf-8 (791a596a)
+2020-03-26T16:53:37.1633676+07:00 80000016-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-03-26T16:53:37.1679125+07:00 80000016-0002-ef00-b63f-84710c7967bb [INF] Request finished in 7.2084ms 404  (791a596a)

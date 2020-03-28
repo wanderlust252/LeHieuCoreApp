@@ -1,24 +1,51 @@
 ﻿var productController = function () {
     this.initialize = function () {
         loadData();
+        loadCategories();
+        registerEvents();
     }
 
     function registerEvents() {
         //todo: binding events to controls
-        $('#ddlShowPage').on('change',function(){
-            lehieu.configs.pageSize = $(this).val();
-            lehieu.configs.pageIndex = 1;
+        $('#ddlShowPage').on('change', function () {
+            tedu.configs.pageSize = $(this).val();
+            tedu.configs.pageIndex = 1;
             loadData(true);
         });
+        $('#btnSearch').on('click', function () {
+            loadData();
+        });
+        $('#txtKeyword').on('keypress', function (e) {
+            if (e.which === 13) {
+                loadData();
+            }
+        });
     }
-
+    function loadCategories() {
+        $.ajax({
+            type: 'GET',
+            url: '/admin/product/GetAllCategories',
+            dataType: 'json',
+            success: function (response) {
+                var render = "<option value=''>--Select category--</option>";
+                $.each(response, function (i, item) {
+                    render += "<option value='" + item.Id + "'>" + item.Name + "</option>"
+                });
+                $('#ddlCategorySearch').html(render);
+            },
+            error: function (status) {
+                console.log(status);
+                lehieu.notify('Cannot loading product category data', 'error');
+            }
+        });
+    }
     function loadData(isPageChanged) {
         var template = $('#table-template').html();
         var render = "";
         $.ajax({
             type: 'GET',
-            data:{
-                categoryId: null,
+            data: {
+                categoryId: $('#ddlCategorySearch').val(),
                 keyword:$('#txtKeyword').val(),
                 page: lehieu.configs.pageIndex,
                 pageSize:lehieu.configs.pageSize
