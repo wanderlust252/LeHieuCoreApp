@@ -28,6 +28,11 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\jquery-validation\localization\" />
+  </ItemGroup>
+
+
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>
