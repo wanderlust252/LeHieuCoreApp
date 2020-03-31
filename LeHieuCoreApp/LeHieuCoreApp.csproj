@@ -33,6 +33,11 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <None Include="wwwroot\lib\ckeditor\.github\ISSUE_TEMPLATE" />
+  </ItemGroup>
+
+
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

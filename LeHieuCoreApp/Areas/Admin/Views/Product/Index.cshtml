@@ -1,7 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
+@section Styles{
+    <link href="~/lib/jQuery-EasyUI/themes/bootstrap/easyui.css" rel="stylesheet" />
+    <link href="~/lib/jQuery-EasyUI/themes/icon.css" rel="stylesheet" />
+}
 @section Scripts{
+    <script src="~/lib/jQuery-EasyUI/jquery.easyui.min.js"></script>
     <script src="~/app/controllers/product/index.js"></script>
     <script>
         var product = new productController();
@@ -27,6 +32,9 @@
             <select class="form-control" id="ddlCategorySearch">
                 <option>--Select category--</option>
             </select>
+        </div>
+        <div class="col-md-2 col-sm-12  form-group pull-right">
+            <button id="btnCreate" class="btn btn-success">Create</button>
         </div>
     </div>
 </div>
@@ -74,12 +82,12 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <script id="table-template" type="x-tmpl-mustache">
     <tr>
         <th scope="row">
-            <button class="btn btn-default btn-sm"><i class="fa fa-pencil"></i></button>
-            <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+            <button class="btn btn-default btn-sm btn-edit" data-id="{{Id}}"><i class="fa fa-pencil"></i></button>
+            <button class="btn btn-danger btn-sm btn-delete" data-id="{{Id}}"><i class="fa fa-trash"></i></button>
         </th>
         <td>{{Name}}</td>
         <td>{{CategoryName}}</td>
@@ -89,3 +97,4 @@
         <td>{{{Status}}}</td>
     </tr>
 </script>
+@Html.Partial("_AddEditModal.cshtml") 
