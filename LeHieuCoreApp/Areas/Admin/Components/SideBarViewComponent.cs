@@ -12,8 +12,8 @@ namespace LeHieuCoreApp.Areas.Admin.Components
 {
     public class SideBarViewComponent : ViewComponent
     {
+        private IFunctionService _functionService;
 
-        IFunctionService _functionService;
         public SideBarViewComponent(IFunctionService functionService)
         {
             _functionService = functionService;
@@ -25,10 +25,11 @@ namespace LeHieuCoreApp.Areas.Admin.Components
             List<FunctionViewModel> functions;
             if (roles.Split(";").Contains(CommonConstants.AdminRole))
             {
-                functions = await _functionService.GetAll();
+                functions = await _functionService.GetAll(string.Empty);
             }
             else
             {
+                //TODO: Get by permission
                 functions = new List<FunctionViewModel>();
             }
             return View(functions);
