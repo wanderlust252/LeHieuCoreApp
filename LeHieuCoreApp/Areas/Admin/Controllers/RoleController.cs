@@ -82,9 +82,9 @@ namespace LeHieuCoreApp.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult SavePermission(List<PermissionViewModel> listPermmission, Guid roleId)
+        public IActionResult SavePermission(List<PermissionViewModel> listPermission, Guid roleId)
         {
-            _roleService.SavePermission(listPermmission, roleId);
+            _roleService.SavePermission(listPermission, roleId);
             return new OkResult();
         }
     }

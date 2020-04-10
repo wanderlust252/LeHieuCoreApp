@@ -9,6 +9,8 @@ namespace LeHieuCoreApp.Application.AutoMapper
     {
         public static MapperConfiguration RegisterMappings()
         {
+
+            Console.WriteLine("\n\n\nLOg\n\n\n\n\n\n\n\n\n");
             return new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new DomainToViewModelMappingProfile());

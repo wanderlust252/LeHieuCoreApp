@@ -18,6 +18,10 @@ namespace LeHieuCoreApp.Application.AutoMapper
 
             CreateMap<AppUser, AppUserViewModel>();
             CreateMap<AppRole, AppRoleViewModel>();
+            //CreateMap<Permission, PermissionViewModel>();
+            CreateMap<PermissionViewModel, Permission>();
+
+            
         }
     }
 }

@@ -134,9 +134,9 @@
         });
 
         $("#btnSavePermission").off('click').on('click', function () {
-            var listPermmission = [];
+            var listPermission = [];
             $.each($('#tblFunction tbody tr'), function (i, item) {
-                listPermmission.push({
+                listPermission.push({
                     RoleId: $('#hidRoleId').val(),
                     FunctionId: $(item).data('id'),
                     CanRead: $(item).find('.ckView').first().prop('checked'),
@@ -149,7 +149,7 @@
                 type: "POST",
                 url: "/admin/role/SavePermission",
                 data: {
-                    listPermmission: listPermmission,
+                    listPermission: listPermission,
                     roleId: $('#hidRoleId').val()
                 },
                 beforeSend: function () {

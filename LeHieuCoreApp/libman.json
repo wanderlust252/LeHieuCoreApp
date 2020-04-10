@@ -57,6 +57,10 @@
     {
       "library": "moment.js@2.24.0",
       "destination": "wwwroot/lib/moment.js/"
+    },
+    {
+      "library": "popper.js@1.16.1",
+      "destination": "wwwroot/lib/popper.js/"
     }
   ]
 }
