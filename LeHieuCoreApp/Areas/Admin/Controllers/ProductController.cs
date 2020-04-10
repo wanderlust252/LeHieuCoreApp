@@ -1,23 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using LeHieuCoreApp.Application.Interfaces;
 using LeHieuCoreApp.Application.ViewModels.Product;
 using LeHieuCoreApp.Helper;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace LeHieuCoreApp.Areas.Admin.Controllers
 {
     public class ProductController : BaseController
-    { 
+    {
         private IProductService _productService;
         private IProductCategoryService _productCategoryService;
-        public ProductController(IProductService productService, IProductCategoryService productCategoryService)
+        private readonly IHostingEnvironment _hostingEnvironment;
+
+        public ProductController(IProductService productService,
+            IProductCategoryService productCategoryService,
+            IHostingEnvironment hostingEnvironment)
         {
             _productService = productService;
             _productCategoryService = productCategoryService;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Index()
@@ -26,12 +35,14 @@ namespace LeHieuCoreApp.Areas.Admin.Controllers
         }
 
         #region AJAX API
+
         [HttpGet]
         public IActionResult GetAll()
         {
             var model = _productService.GetAll();
             return new OkObjectResult(model);
         }
+
         [HttpGet]
         public IActionResult GetAllCategories()
         {
@@ -45,6 +56,7 @@ namespace LeHieuCoreApp.Areas.Admin.Controllers
             var model = _productService.GetAllPaging(categoryId, keyword, page, pageSize);
             return new OkObjectResult(model);
         }
+
         [HttpGet]
         public IActionResult GetById(int id)
         {
@@ -93,6 +105,35 @@ namespace LeHieuCoreApp.Areas.Admin.Controllers
             }
         }
 
+        [HttpPost]
+        public IActionResult ImportExcel(IList<IFormFile> files, int categoryId)
+        {
+            if (files != null && files.Count > 0)
+            {
+                var file = files[0];
+                var filename = ContentDispositionHeaderValue
+                                   .Parse(file.ContentDisposition)
+                                   .FileName
+                                   .Trim('"');
+
+                string folder = _hostingEnvironment.WebRootPath + $@"\uploaded\excels";
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+                string filePath = Path.Combine(folder, filename);
+
+                using (FileStream fs = System.IO.File.Create(filePath))
+                {
+                    file.CopyTo(fs);
+                    fs.Flush();
+                }
+                _productService.ImportExcel(filePath, categoryId);
+                _productService.Save();
+                return new OkObjectResult(filePath);
+            }
+            return new NoContentResult();
+        }
         #endregion AJAX API
     }
 }
