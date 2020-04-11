@@ -124,7 +124,23 @@
 
     function registerControls() {
         CKEDITOR.replace('txtContent', {});
-
+        $('#btn-export').on('click', function () {
+            $.ajax({
+                type: "POST",
+                url: "/Admin/Product/ExportExcel",
+                beforeSend: function () {
+                    lehieu.startLoading();
+                },
+                success: function (response) {
+                    window.location.href = response;
+                    lehieu.stopLoading();
+                },
+                error: function () {
+                    lehieu.notify('Has an error in progress', 'error');
+                    lehieu.stopLoading();
+                }
+            });
+        });
         //Fix: cannot click on element ck in modal
         $.fn.modal.Constructor.prototype.enforceFocus = function () {
             $(document)
