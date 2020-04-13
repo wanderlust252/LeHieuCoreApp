@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using LeHieuCoreApp.Application.Interfaces;
 using LeHieuCoreApp.Application.ViewModels.Product;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using LeHieuCoreApp.Helper;
+using LeHieuCoreApp.Utilities.Helpers;
 
 namespace LeHieuCoreApp.Areas.Admin.Controllers
 {

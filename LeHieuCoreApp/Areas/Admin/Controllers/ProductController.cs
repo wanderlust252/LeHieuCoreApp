@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using LeHieuCoreApp.Application.Interfaces;
 using LeHieuCoreApp.Application.ViewModels.Product;
-using LeHieuCoreApp.Helper;
+using LeHieuCoreApp.Utilities.Helpers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

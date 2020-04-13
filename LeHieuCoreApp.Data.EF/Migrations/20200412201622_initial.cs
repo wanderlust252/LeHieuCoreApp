@@ -423,7 +423,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                     DateCreated = table.Column<DateTime>(nullable: false),
                     DateModified = table.Column<DateTime>(nullable: false),
                     Status = table.Column<int>(nullable: false),
-                    CustomerId = table.Column<Guid>(nullable: false)
+                    CustomerId = table.Column<Guid>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -433,7 +433,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                         column: x => x.CustomerId,
                         principalTable: "AppUser",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -442,7 +442,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    RoleId = table.Column<Guid>(maxLength: 450, nullable: false),
+                    RoleId = table.Column<Guid>(nullable: false),
                     FunctionId = table.Column<string>(nullable: false),
                     CanCreate = table.Column<bool>(nullable: false),
                     CanRead = table.Column<bool>(nullable: false),
@@ -476,16 +476,16 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                     CategoryId = table.Column<int>(nullable: false),
                     Image = table.Column<string>(maxLength: 255, nullable: true),
                     Price = table.Column<decimal>(nullable: false),
-                    PromotionPrice = table.Column<decimal>(nullable: false),
+                    PromotionPrice = table.Column<decimal>(nullable: true),
                     OriginalPrice = table.Column<decimal>(nullable: false),
                     Description = table.Column<string>(maxLength: 255, nullable: true),
                     Content = table.Column<string>(nullable: true),
                     HomeFlag = table.Column<bool>(nullable: true),
-                    HotFlag = table.Column<bool>(nullable: false),
+                    HotFlag = table.Column<bool>(nullable: true),
                     ViewCount = table.Column<int>(nullable: true),
                     Tags = table.Column<string>(maxLength: 255, nullable: true),
                     Unit = table.Column<string>(maxLength: 255, nullable: true),
-                    SeoPageTitle = table.Column<string>(maxLength: 255, nullable: true),
+                    SeoPageTitle = table.Column<string>(nullable: true),
                     SeoAlias = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: true),
                     SeoKeywords = table.Column<string>(maxLength: 255, nullable: true),
                     SeoDescription = table.Column<string>(maxLength: 255, nullable: true),

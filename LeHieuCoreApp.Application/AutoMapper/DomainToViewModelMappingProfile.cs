@@ -20,8 +20,11 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<AppRole, AppRoleViewModel>();
             //CreateMap<Permission, PermissionViewModel>();
             CreateMap<PermissionViewModel, Permission>();
+            CreateMap<Bill, BillViewModel>();
+            CreateMap<BillDetail, BillDetailViewModel>();
+            CreateMap<Color, ColorViewModel>();
+            CreateMap<Size, SizeViewModel>();
 
-            
         }
     }
 }

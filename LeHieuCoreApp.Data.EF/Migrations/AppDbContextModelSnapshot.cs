@@ -217,7 +217,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                         .IsRequired()
                         .HasMaxLength(256);
 
-                    b.Property<Guid>("CustomerId");
+                    b.Property<Guid?>("CustomerId");
 
                     b.Property<string>("CustomerMessage")
                         .IsRequired()
@@ -530,8 +530,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                     b.Property<string>("FunctionId")
                         .IsRequired();
 
-                    b.Property<Guid>("RoleId")
-                        .HasMaxLength(450);
+                    b.Property<Guid>("RoleId");
 
                     b.HasKey("Id");
 
@@ -561,7 +560,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
 
                     b.Property<bool?>("HomeFlag");
 
-                    b.Property<bool>("HotFlag");
+                    b.Property<bool?>("HotFlag");
 
                     b.Property<string>("Image")
                         .HasMaxLength(255);
@@ -574,7 +573,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
 
                     b.Property<decimal>("Price");
 
-                    b.Property<decimal>("PromotionPrice");
+                    b.Property<decimal?>("PromotionPrice");
 
                     b.Property<string>("SeoAlias")
                         .HasColumnType("varchar(255)")
@@ -586,8 +585,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                     b.Property<string>("SeoKeywords")
                         .HasMaxLength(255);
 
-                    b.Property<string>("SeoPageTitle")
-                        .HasMaxLength(255);
+                    b.Property<string>("SeoPageTitle");
 
                     b.Property<int>("Status");
 
@@ -941,8 +939,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
                 {
                     b.HasOne("LeHieuCoreApp.Data.Entities.AppUser", "User")
                         .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("CustomerId");
                 });
 
             modelBuilder.Entity("LeHieuCoreApp.Data.Entities.BillDetail", b =>
@@ -1031,7 +1028,7 @@ namespace LeHieuCoreApp.Data.EF.Migrations
             modelBuilder.Entity("LeHieuCoreApp.Data.Entities.ProductTag", b =>
                 {
                     b.HasOne("LeHieuCoreApp.Data.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("ProductTags")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
 
