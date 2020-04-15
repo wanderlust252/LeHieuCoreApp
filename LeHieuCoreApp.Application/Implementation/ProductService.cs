@@ -25,9 +25,12 @@ namespace LeHieuCoreApp.Application.Implementation
         IProductTagRepository _productTagRepository;
         IUnitOfWork _unitOfWork;
         IProductQuantityRepository _productQuantityRepository;
+        IProductImageRepository _productImageRepository;
+
         public ProductService(IProductRepository productRepository,
             ITagRepository tagRepository,
             IProductQuantityRepository productQuantityRepository,
+            IProductImageRepository productImageRepository,
             IUnitOfWork unitOfWork,
         IProductTagRepository productTagRepository)
         {
@@ -35,6 +38,7 @@ namespace LeHieuCoreApp.Application.Implementation
             _tagRepository = tagRepository;
             _productQuantityRepository = productQuantityRepository;
             _productTagRepository = productTagRepository;
+            _productImageRepository = productImageRepository;
             _unitOfWork = unitOfWork;
         }
 
@@ -215,6 +219,28 @@ namespace LeHieuCoreApp.Application.Implementation
                 product.ProductTags.Add(productTag);
             }
             _productRepository.Update(product);
+
         }
+        public List<ProductImageViewModel> GetImages(int productId)
+        {
+            return _productImageRepository.FindAll(x => x.ProductId == productId)
+                .ProjectTo<ProductImageViewModel>().ToList();
+        }
+
+        public void AddImages(int productId, string[] images)
+        {
+            _productImageRepository.RemoveMultiple(_productImageRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var image in images)
+            {
+                _productImageRepository.Add(new ProductImage()
+                {
+                    Path = image,
+                    ProductId = productId,
+                    Caption = string.Empty
+                });
+            }
+
+        }
+
     }
 }

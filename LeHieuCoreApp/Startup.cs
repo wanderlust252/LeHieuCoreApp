@@ -98,6 +98,7 @@ namespace LeHieuCoreApp
             services.AddTransient<IColorRepository, ColorRepository>();
             services.AddTransient<ISizeRepository, SizeRepository>();
             services.AddTransient<IProductQuantityRepository, ProductQuantityRepository>();
+            services.AddTransient<IProductImageRepository, ProductImageRepository>();
             //Services
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
             services.AddTransient<IFunctionService, FunctionService>();

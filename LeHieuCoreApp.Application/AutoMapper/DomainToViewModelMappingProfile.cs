@@ -24,7 +24,8 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<BillDetail, BillDetailViewModel>();
             CreateMap<Color, ColorViewModel>();
             CreateMap<Size, SizeViewModel>();
-            CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);
+            CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);// maxdepth để k bị lỗi
+            CreateMap<ProductImage, ProductImageViewModel>().MaxDepth(2);
         }
     }
 }
