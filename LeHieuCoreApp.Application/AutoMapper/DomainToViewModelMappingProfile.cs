@@ -15,7 +15,7 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<ProductCategory, ProductCategoryViewModel>();
             CreateMap<Function, FunctionViewModel>();
             CreateMap<Product, ProductViewModel>();
-
+            CreateMap<Announcement, AnnouncementViewModel>().MaxDepth(2);
             CreateMap<AppUser, AppUserViewModel>();
             CreateMap<AppRole, AppRoleViewModel>();
             //CreateMap<Permission, PermissionViewModel>();

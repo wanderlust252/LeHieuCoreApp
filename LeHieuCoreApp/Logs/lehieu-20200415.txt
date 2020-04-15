@@ -1,0 +1,711 @@
+2020-04-15T20:44:29.4337185+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/   (ca22a1cb)
+2020-04-15T20:44:30.0442241+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:30.0850942+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:30.1606140+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-04-15T20:44:30.2500763+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-04-15T20:44:30.2724157+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-04-15T20:44:30.3804016+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-04-15T20:44:30.4998982+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)" in 295.1956ms (afa2e885)
+2020-04-15T20:44:30.5769162+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:30.6766211+07:00 80000002-0003-fd00-b63f-84710c7967bb [INF] Request finished in 1222.449ms 302  (791a596a)
+2020-04-15T20:44:30.7350650+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2020-04-15T20:44:30.7521647+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executing endpoint '"Page: /Account/Login"' (500cc934)
+2020-04-15T20:44:30.8646970+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login" (547e620f)
+2020-04-15T20:44:30.9327572+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executing handler method "Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid (cd3ef7ec)
+2020-04-15T20:44:30.9675278+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2020-04-15T20:44:30.9981408+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed handler method "OnGetAsync", returned result "". (90fdc39c)
+2020-04-15T20:44:31.0347913+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executing an implicit handler method - ModelState is Valid (232a55d1)
+2020-04-15T20:44:31.1432535+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult". (f857da66)
+2020-04-15T20:44:31.8980103+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed page "/Account/Login" in 1021.239ms (02e01280)
+2020-04-15T20:44:31.9096246+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Executed endpoint '"Page: /Account/Login"' (99874f2b)
+2020-04-15T20:44:31.9302527+07:00 80000002-0001-ff00-b63f-84710c7967bb [INF] Request finished in 1200.996ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-15T20:44:32.0290274+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/js/site.js   (ca22a1cb)
+2020-04-15T20:44:32.0443729+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-04-15T20:44:32.0648549+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-04-15T20:44:32.0886452+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/css/site.css   (ca22a1cb)
+2020-04-15T20:44:32.1037950+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-04-15T20:44:32.1236116+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/css/site.css"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.1639879+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.1795507+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.1829595+07:00 80000002-0000-f700-b63f-84710c7967bb [INF] Request finished in 151.4306ms 200 application/javascript (791a596a)
+2020-04-15T20:44:32.1935834+07:00 80000002-0000-f800-b63f-84710c7967bb [INF] Request finished in 167.053ms 200 application/javascript (791a596a)
+2020-04-15T20:44:32.2014833+07:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Request finished in 111.2401ms 200 text/css (791a596a)
+2020-04-15T20:44:32.2137650+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/js/site.js"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.2307824+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-04-15T20:44:32.2610104+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2020-04-15T20:44:32.2780200+07:00 80000002-0000-f900-b63f-84710c7967bb [INF] Request finished in 214.9354ms 200 application/javascript (791a596a)
+2020-04-15T20:44:32.3252214+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.3310218+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.3352567+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/Identity/lib/jquery/dist/jquery.js"'. Physical path: '"N/A"' (27b0a520)
+2020-04-15T20:44:32.3423168+07:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request finished in 124.4995ms 200 application/javascript (791a596a)
+2020-04-15T20:44:32.3464778+07:00 80000004-0001-ff00-b63f-84710c7967bb [INF] Request finished in 124.5646ms 200 text/css (791a596a)
+2020-04-15T20:44:32.3596253+07:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request finished in 338.5894ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.3421544+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin   (ca22a1cb)
+2020-04-15T20:44:39.3492269+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:39.3561920+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:39.3725869+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:39.3868009+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 3.439ms. (50a9e262)
+2020-04-15T20:44:39.4109610+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-15T20:44:39.4558836+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 61.1489ms. (f66409e9)
+2020-04-15T20:44:39.4598983+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)" in 100.8478ms (afa2e885)
+2020-04-15T20:44:39.4642580+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:39.4668422+07:00 80000006-0001-ff00-b63f-84710c7967bb [INF] Request finished in 124.9687ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-15T20:44:39.5257531+07:00 80000002-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-04-15T20:44:39.5288607+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/animate.css/animate.css   (ca22a1cb)
+2020-04-15T20:44:39.5410244+07:00 80000004-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.css   (ca22a1cb)
+2020-04-15T20:44:39.5454955+07:00 80000002-0002-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-04-15T20:44:39.5525244+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.css   (ca22a1cb)
+2020-04-15T20:44:39.5577930+07:00 80000002-0002-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\css\font-awesome.css"' (27b0a520)
+2020-04-15T20:44:39.5608346+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/css/custom.css   (ca22a1cb)
+2020-04-15T20:44:39.5658252+07:00 80000002-0002-f800-b63f-84710c7967bb [INF] Request finished in 34.7678ms 200 text/css (791a596a)
+2020-04-15T20:44:39.5852370+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/notify.js   (ca22a1cb)
+2020-04-15T20:44:39.5945835+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-04-15T20:44:39.6008351+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-04-15T20:44:39.6119279+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.js   (ca22a1cb)
+2020-04-15T20:44:39.6200532+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/notify.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\notify.js"' (27b0a520)
+2020-04-15T20:44:39.6226103+07:00 80000002-0001-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/login/index.js   (ca22a1cb)
+2020-04-15T20:44:39.6252817+07:00 80000002-0001-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2020-04-15T20:44:39.6324867+07:00 80000002-0001-fb00-b63f-84710c7967bb [INF] Request finished in 56.6178ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.6350973+07:00 80000002-0001-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/shared/lehieu.js   (ca22a1cb)
+2020-04-15T20:44:39.6405899+07:00 80000004-0000-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/nprogress/nprogress.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\nprogress\nprogress.css"' (27b0a520)
+2020-04-15T20:44:39.6506067+07:00 80000002-0001-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/additional-methods.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\additional-methods.js"' (27b0a520)
+2020-04-15T20:44:39.6537367+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.css"' (27b0a520)
+2020-04-15T20:44:39.6574677+07:00 80000002-0001-f600-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/login/index.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\login\index.js"' (27b0a520)
+2020-04-15T20:44:39.6601255+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.js"' (27b0a520)
+2020-04-15T20:44:39.6671001+07:00 80000002-0001-f600-b63f-84710c7967bb [INF] Request finished in 38.627ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.6646666+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Request finished in 116.9573ms 200 text/css (791a596a)
+2020-04-15T20:44:39.6747594+07:00 80000002-0001-f800-b63f-84710c7967bb [INF] Request finished in 31.6935ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.6935834+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-04-15T20:44:39.7017299+07:00 80000002-0001-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/shared/lehieu.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\shared\lehieu.js"' (27b0a520)
+2020-04-15T20:44:39.7103288+07:00 80000002-0001-f900-b63f-84710c7967bb [INF] Request finished in 107.8831ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.7133149+07:00 80000002-0001-f700-b63f-84710c7967bb [INF] Request finished in 106.5049ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.7243373+07:00 80000004-0000-fb00-b63f-84710c7967bb [INF] Request finished in 117.5334ms 200 text/css (791a596a)
+2020-04-15T20:44:39.7266996+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/css/custom.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\css\custom.css"' (27b0a520)
+2020-04-15T20:44:39.7293645+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/animate.css/animate.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\animate.css\animate.css"' (27b0a520)
+2020-04-15T20:44:39.7344700+07:00 80000002-0001-fd00-b63f-84710c7967bb [INF] Request finished in 170.3231ms 200 text/css (791a596a)
+2020-04-15T20:44:39.7375704+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Request finished in 208.1008ms 200 text/css (791a596a)
+2020-04-15T20:44:39.7517268+07:00 80000002-0001-fa00-b63f-84710c7967bb [INF] Request finished in 67.7028ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.7744662+07:00 80000002-0002-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-04-15T20:44:39.7786168+07:00 80000002-0002-f900-b63f-84710c7967bb [INF] Request finished in 255.2804ms 200 text/css (791a596a)
+2020-04-15T20:44:39.7876134+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2020-04-15T20:44:39.7912505+07:00 80000002-0001-fc00-b63f-84710c7967bb [INF] Request finished in 222.0899ms 200 application/javascript (791a596a)
+2020-04-15T20:44:39.8174076+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2020-04-15T20:44:39.8251868+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2020-04-15T20:44:39.8286817+07:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Request finished in 11.3638ms 200 font/woff2 (791a596a)
+2020-04-15T20:44:41.5136227+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-15T20:44:41.5175091+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:41.5336473+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(LeHieuCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.LoginController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:41.5806252+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:41.6100779+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:41.7357444+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("25"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUser] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-15T20:44:42.0217312+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-15T20:44:42.0977646+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-15T20:44:42.1265863+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRole] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-15T20:44:42.1600772+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-15T20:44:42.1701213+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRole] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-15T20:44:42.1825229+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-15T20:44:42.1884786+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-15T20:44:42.1940602+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 610.9424ms. (50a9e262)
+2020-04-15T20:44:42.2116386+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-15T20:44:42.2867539+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)" in 750.5796ms (afa2e885)
+2020-04-15T20:44:42.2911599+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.LoginController.Authen (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:42.2978945+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request finished in 784.7984ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:42.3205631+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Home/Index   (ca22a1cb)
+2020-04-15T20:44:42.3397968+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:42.3437119+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.HomeController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:42.3518675+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:42.3559077+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:42.3666036+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 7.3485ms. (50a9e262)
+2020-04-15T20:44:42.3746462+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-15T20:44:42.4521604+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:42.5365028+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[URL], [x].[ParentId], [x].[IconCss], [x].[SortOrder], [x].[Status]
+FROM [Functions] AS [x]
+WHERE [x].[Status] = 1
+ORDER BY [x].[ParentId]" (0723d8ff)
+2020-04-15T20:44:42.6358640+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 266.4436ms. (f66409e9)
+2020-04-15T20:44:42.6826019+07:00 80000004-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.css   (ca22a1cb)
+2020-04-15T20:44:42.7051599+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)" in 324.9347ms (afa2e885)
+2020-04-15T20:44:42.7088043+07:00 80000004-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-04-15T20:44:42.7312718+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.HomeController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:42.7525063+07:00 80000006-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-04-15T20:44:42.7725311+07:00 80000004-0001-fc00-b63f-84710c7967bb [INF] Request finished in 428.6363ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-15T20:44:42.8157676+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.min.css   (ca22a1cb)
+2020-04-15T20:44:42.8548866+07:00 80000004-0000-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.css   (ca22a1cb)
+2020-04-15T20:44:42.8656481+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/css/custom.css   (ca22a1cb)
+2020-04-15T20:44:42.8892992+07:00 80000002-0003-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2020-04-15T20:44:42.9081977+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/popper.js/umd/popper.js   (ca22a1cb)
+2020-04-15T20:44:42.9216571+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2020-04-15T20:44:42.9254813+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-04-15T20:44:42.9329283+07:00 80000002-0002-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/Chart.js/Chart.js   (ca22a1cb)
+2020-04-15T20:44:42.9389223+07:00 80000004-0000-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/nprogress/nprogress.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\nprogress\nprogress.css"' (27b0a520)
+2020-04-15T20:44:43.1208019+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-04-15T20:44:43.1332125+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.js   (ca22a1cb)
+2020-04-15T20:44:43.1366481+07:00 80000004-0001-fa00-b63f-84710c7967bb [INF] Request finished in 231.653ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.1408119+07:00 80000002-0000-eb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/js/custom.js   (ca22a1cb)
+2020-04-15T20:44:43.1454608+07:00 80000002-0000-ec00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/shared/lehieu.js?v=fSDdav-hatQkT9geEgDaBJgcdr2g32OH8du57gJODbI   (ca22a1cb)
+2020-04-15T20:44:43.1502124+07:00 80000002-0003-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/ckeditor.js   (ca22a1cb)
+2020-04-15T20:44:43.1537882+07:00 80000004-0000-f800-b63f-84710c7967bb [INF] Request finished in 220.0059ms 200 text/css (791a596a)
+2020-04-15T20:44:43.1576432+07:00 80000002-0000-ed00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootbox.js/bootbox.js   (ca22a1cb)
+2020-04-15T20:44:43.1652167+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/images/img.jpg   (ca22a1cb)
+2020-04-15T20:44:43.1700597+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/skins/moono/editor.css   (ca22a1cb)
+2020-04-15T20:44:43.1754339+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.css   (ca22a1cb)
+2020-04-15T20:44:43.1862128+07:00 80000004-0000-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\css\font-awesome.css"' (27b0a520)
+2020-04-15T20:44:43.2083906+07:00 80000002-0000-ec00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/shared/lehieu.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\shared\lehieu.js"' (27b0a520)
+2020-04-15T20:44:43.2148987+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/moment.js/moment.js   (ca22a1cb)
+2020-04-15T20:44:43.2192340+07:00 80000002-0000-ec00-b63f-84710c7967bb [INF] Request finished in 271.4293ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.2230478+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/images/img.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\images\img.jpg"' (27b0a520)
+2020-04-15T20:44:43.2316656+07:00 80000004-0000-f900-b63f-84710c7967bb [INF] Request finished in 508.938ms 200 text/css (791a596a)
+2020-04-15T20:44:43.2544868+07:00 80000002-0000-f300-b63f-84710c7967bb [INF] Request finished in 528.3751ms 200 image/jpeg (791a596a)
+2020-04-15T20:44:43.2708530+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/css/custom.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\css\custom.css"' (27b0a520)
+2020-04-15T20:44:43.2814421+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"' (27b0a520)
+2020-04-15T20:44:43.2840009+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/popper.js/umd/popper.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\popper.js\umd\popper.js"' (27b0a520)
+2020-04-15T20:44:43.2903063+07:00 80000002-0000-ed00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootbox.js/bootbox.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootbox.js\bootbox.js"' (27b0a520)
+2020-04-15T20:44:43.2948023+07:00 80000004-0000-fa00-b63f-84710c7967bb [INF] Request finished in 610.6516ms 200 text/css (791a596a)
+2020-04-15T20:44:43.3064750+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.js"' (27b0a520)
+2020-04-15T20:44:43.3311268+07:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Request finished in 428.5951ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3347167+07:00 80000002-0000-ee00-b63f-84710c7967bb [INF] Request finished in 377.2995ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3418072+07:00 80000002-0003-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2020-04-15T20:44:43.3466006+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.js"' (27b0a520)
+2020-04-15T20:44:43.3511434+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/moment.js/moment.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\moment.js\moment.js"' (27b0a520)
+2020-04-15T20:44:43.3549628+07:00 80000002-0003-fb00-b63f-84710c7967bb [INF] Request finished in 486.125ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3597464+07:00 80000002-0000-f000-b63f-84710c7967bb [INF] Request finished in 439.4013ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3679143+07:00 80000002-0000-f200-b63f-84710c7967bb [INF] Request finished in 173.0573ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3757191+07:00 80000002-0000-ed00-b63f-84710c7967bb [INF] Request finished in 354.5123ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.3831327+07:00 80000002-0000-eb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/js/custom.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\js\custom.js"' (27b0a520)
+2020-04-15T20:44:43.3892614+07:00 80000002-0000-f400-b63f-84710c7967bb [INF] Request finished in 567.943ms 200 text/css (791a596a)
+2020-04-15T20:44:43.3968175+07:00 80000002-0000-eb00-b63f-84710c7967bb [INF] Request finished in 446.5149ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.4044553+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.css"' (27b0a520)
+2020-04-15T20:44:43.4090593+07:00 80000006-0000-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-04-15T20:44:43.4133545+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/skins/moono/editor.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\skins\moono\editor.css"' (27b0a520)
+2020-04-15T20:44:43.4171113+07:00 80000002-0000-f600-b63f-84710c7967bb [INF] Request finished in 696.6307ms 200 text/css (791a596a)
+2020-04-15T20:44:43.4197184+07:00 80000002-0000-f500-b63f-84710c7967bb [INF] Request finished in 718.9693ms 200 text/css (791a596a)
+2020-04-15T20:44:43.4234010+07:00 80000002-0002-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/Chart.js/Chart.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\Chart.js\Chart.js"' (27b0a520)
+2020-04-15T20:44:43.4320708+07:00 80000006-0000-fb00-b63f-84710c7967bb [INF] Request finished in 737.2476ms 200 text/css (791a596a)
+2020-04-15T20:44:43.4372720+07:00 80000002-0002-f700-b63f-84710c7967bb [INF] Request finished in 560.5571ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.4745163+07:00 80000002-0003-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/ckeditor.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\ckeditor.js"' (27b0a520)
+2020-04-15T20:44:43.4832063+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-04-15T20:44:43.4904866+07:00 80000002-0003-f900-b63f-84710c7967bb [INF] Request finished in 333.8422ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.5561206+07:00 80000002-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/fastclick/fastclick.js   (ca22a1cb)
+2020-04-15T20:44:43.5729829+07:00 80000004-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.css"' (27b0a520)
+2020-04-15T20:44:43.5789843+07:00 80000004-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.js   (ca22a1cb)
+2020-04-15T20:44:43.5884319+07:00 80000004-0000-f700-b63f-84710c7967bb [INF] Request finished in 903.2801ms 200 text/css (791a596a)
+2020-04-15T20:44:43.6319766+07:00 80000006-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-sparklines/jquery.sparkline.js   (ca22a1cb)
+2020-04-15T20:44:43.6374306+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2020-04-15T20:44:43.6582879+07:00 80000004-0002-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/nprogress/nprogress.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\nprogress\nprogress.js"' (27b0a520)
+2020-04-15T20:44:43.6663292+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request finished in 782.8396ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.6965664+07:00 80000004-0002-f900-b63f-84710c7967bb [INF] Request finished in 794.9134ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.7123102+07:00 80000006-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2020-04-15T20:44:43.7220549+07:00 80000006-0001-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-sparklines/jquery.sparkline.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-sparklines\jquery.sparkline.js"' (27b0a520)
+2020-04-15T20:44:43.7331125+07:00 80000002-0003-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/fastclick/fastclick.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\fastclick\fastclick.js"' (27b0a520)
+2020-04-15T20:44:43.7383975+07:00 80000006-0001-fc00-b63f-84710c7967bb [INF] Request finished in 832.9438ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.7439714+07:00 80000002-0003-fa00-b63f-84710c7967bb [INF] Request finished in 869.7279ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.7516523+07:00 80000004-0002-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/mustache.js/mustache.js   (ca22a1cb)
+2020-04-15T20:44:43.7568760+07:00 80000006-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2020-04-15T20:44:43.7650068+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-04-15T20:44:43.7693072+07:00 80000006-0000-f700-b63f-84710c7967bb [INF] Request finished in 90.3962ms 200 font/woff2 (791a596a)
+2020-04-15T20:44:43.7833706+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/notify.js   (ca22a1cb)
+2020-04-15T20:44:43.8038701+07:00 80000004-0002-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/mustache.js/mustache.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\mustache.js\mustache.js"' (27b0a520)
+2020-04-15T20:44:43.8098078+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2020-04-15T20:44:43.8134783+07:00 80000004-0002-f800-b63f-84710c7967bb [INF] Request finished in 939.1212ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.8178319+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Request finished in 919.1481ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.8218363+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/notify.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\notify.js"' (27b0a520)
+2020-04-15T20:44:43.8696635+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2020-04-15T20:44:43.9485796+07:00 80000002-0000-ef00-b63f-84710c7967bb [INF] Request finished in 908.6213ms 200 application/javascript (791a596a)
+2020-04-15T20:44:43.9797953+07:00 80000002-0002-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2020-04-15T20:44:43.9910694+07:00 80000004-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2020-04-15T20:44:44.0083621+07:00 80000004-0001-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/additional-methods.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\additional-methods.js"' (27b0a520)
+2020-04-15T20:44:44.0226018+07:00 80000002-0002-f600-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/twbs-pagination/jquery.twbsPagination.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\twbs-pagination\jquery.twbsPagination.js"' (27b0a520)
+2020-04-15T20:44:44.0294310+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js"' (27b0a520)
+2020-04-15T20:44:44.0342666+07:00 80000002-0002-f600-b63f-84710c7967bb [INF] Request finished in 1133.5408ms 200 application/javascript (791a596a)
+2020-04-15T20:44:44.0372740+07:00 80000002-0000-f100-b63f-84710c7967bb [INF] Request finished in 1091.8678ms 200 application/javascript (791a596a)
+2020-04-15T20:44:44.0422858+07:00 80000004-0001-fd00-b63f-84710c7967bb [INF] Request finished in 1106.9993ms 200 application/javascript (791a596a)
+2020-04-15T20:44:50.4128161+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/index   (ca22a1cb)
+2020-04-15T20:44:50.4169743+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:50.4255227+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:50.4291432+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:50.4349677+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:50.4436002+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5949ms. (50a9e262)
+2020-04-15T20:44:50.4505913+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-15T20:44:50.5294151+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:50.5385632+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[URL], [x].[ParentId], [x].[IconCss], [x].[SortOrder], [x].[Status]
+FROM [Functions] AS [x]
+WHERE [x].[Status] = 1
+ORDER BY [x].[ParentId]" (0723d8ff)
+2020-04-15T20:44:50.5606187+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 109.2432ms. (f66409e9)
+2020-04-15T20:44:50.5645988+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)" in 135.2416ms (afa2e885)
+2020-04-15T20:44:50.5685904+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.Index (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:50.5736995+07:00 80000004-0003-fa00-b63f-84710c7967bb [INF] Request finished in 160.9562ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-15T20:44:50.7244868+07:00 80000006-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-04-15T20:44:50.7315995+07:00 80000008-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/skins/moono/editor.css   (ca22a1cb)
+2020-04-15T20:44:50.7349345+07:00 80000004-0002-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.css   (ca22a1cb)
+2020-04-15T20:44:50.7505059+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.css   (ca22a1cb)
+2020-04-15T20:44:50.7614385+07:00 80000006-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.min.css   (ca22a1cb)
+2020-04-15T20:44:50.7655777+07:00 80000004-0001-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jQuery-EasyUI/themes/icon.css   (ca22a1cb)
+2020-04-15T20:44:50.7754411+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/css/custom.css   (ca22a1cb)
+2020-04-15T20:44:50.7812315+07:00 80000004-0001-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/images/img.jpg   (ca22a1cb)
+2020-04-15T20:44:50.7922371+07:00 80000004-0001-f600-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-04-15T20:44:50.7968143+07:00 80000004-0001-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jQuery-EasyUI/themes/bootstrap/easyui.css   (ca22a1cb)
+2020-04-15T20:44:50.8004671+07:00 80000004-0000-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.css   (ca22a1cb)
+2020-04-15T20:44:50.8084541+07:00 80000004-0001-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/images/img.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\images\img.jpg"' (27b0a520)
+2020-04-15T20:44:50.8138523+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-04-15T20:44:50.8174690+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/popper.js/umd/popper.js   (ca22a1cb)
+2020-04-15T20:44:50.8246216+07:00 80000004-0000-ef00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/nprogress/nprogress.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\nprogress\nprogress.css"' (27b0a520)
+2020-04-15T20:44:50.8280376+07:00 80000004-0001-f800-b63f-84710c7967bb [INF] Request finished in 41.024ms 200 image/jpeg (791a596a)
+2020-04-15T20:44:50.8321223+07:00 80000004-0000-ef00-b63f-84710c7967bb [INF] Request finished in 29.5158ms 200 text/css (791a596a)
+2020-04-15T20:44:50.8391137+07:00 80000004-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2020-04-15T20:44:50.8467985+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/nprogress/nprogress.js   (ca22a1cb)
+2020-04-15T20:44:50.8493588+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\css\font-awesome.css"' (27b0a520)
+2020-04-15T20:44:50.8613229+07:00 80000004-0003-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/mustache.js/mustache.js   (ca22a1cb)
+2020-04-15T20:44:50.8653706+07:00 80000002-0001-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/Chart.js/Chart.js   (ca22a1cb)
+2020-04-15T20:44:50.8736017+07:00 80000004-0000-f100-b63f-84710c7967bb [INF] Request finished in 43.511ms 200 text/css (791a596a)
+2020-04-15T20:44:50.8800350+07:00 80000002-0001-f300-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2020-04-15T20:44:50.8837169+07:00 80000008-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2020-04-15T20:44:50.8916089+07:00 80000002-0001-f500-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/fastclick/fastclick.js   (ca22a1cb)
+2020-04-15T20:44:50.8939842+07:00 80000004-0003-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/mustache.js/mustache.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\mustache.js\mustache.js"' (27b0a520)
+2020-04-15T20:44:50.9013706+07:00 80000004-0003-f900-b63f-84710c7967bb [INF] Request finished in 44.8455ms 200 application/javascript (791a596a)
+2020-04-15T20:44:50.9095807+07:00 80000002-0001-f300-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/twbs-pagination/jquery.twbsPagination.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\twbs-pagination\jquery.twbsPagination.js"' (27b0a520)
+2020-04-15T20:44:50.9131357+07:00 80000002-0001-f500-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/fastclick/fastclick.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\fastclick\fastclick.js"' (27b0a520)
+2020-04-15T20:44:50.9175772+07:00 80000004-0002-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/moment.js/moment.js   (ca22a1cb)
+2020-04-15T20:44:50.9278377+07:00 80000002-0001-f500-b63f-84710c7967bb [INF] Request finished in 34.6722ms 200 application/javascript (791a596a)
+2020-04-15T20:44:50.9512883+07:00 80000006-0002-f800-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-sparklines/jquery.sparkline.js   (ca22a1cb)
+2020-04-15T20:44:50.9663391+07:00 80000002-0001-f300-b63f-84710c7967bb [INF] Request finished in 41.6395ms 200 application/javascript (791a596a)
+2020-04-15T20:44:50.9770482+07:00 80000006-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/ckeditor.js   (ca22a1cb)
+2020-04-15T20:44:51.1430109+07:00 80000002-0002-f500-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2020-04-15T20:44:51.2353390+07:00 80000002-0002-f300-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/notify.js   (ca22a1cb)
+2020-04-15T20:44:51.2505289+07:00 80000002-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2020-04-15T20:44:51.2683351+07:00 80000002-0002-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootbox.js/bootbox.js   (ca22a1cb)
+2020-04-15T20:44:51.2796096+07:00 80000002-0002-f200-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/notify/styles/metro/notify-metro.js   (ca22a1cb)
+2020-04-15T20:44:51.3150674+07:00 80000002-0001-f200-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-04-15T20:44:51.4582211+07:00 80000002-0002-f000-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/shared/lehieu.js?v=fSDdav-hatQkT9geEgDaBJgcdr2g32OH8du57gJODbI   (ca22a1cb)
+2020-04-15T20:44:51.5124694+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/nprogress/nprogress.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\nprogress\nprogress.js"' (27b0a520)
+2020-04-15T20:44:51.5230645+07:00 80000002-0002-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootbox.js/bootbox.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootbox.js\bootbox.js"' (27b0a520)
+2020-04-15T20:44:51.5274710+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/css/custom.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\css\custom.css"' (27b0a520)
+2020-04-15T20:44:51.5297202+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Request finished in 680.2795ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.5350603+07:00 80000006-0003-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"' (27b0a520)
+2020-04-15T20:44:51.5438291+07:00 80000006-0001-fa00-b63f-84710c7967bb [INF] Request finished in 778.8364ms 200 text/css (791a596a)
+2020-04-15T20:44:51.5566185+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/popper.js/umd/popper.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\popper.js\umd\popper.js"' (27b0a520)
+2020-04-15T20:44:51.5627667+07:00 80000006-0003-fa00-b63f-84710c7967bb [INF] Request finished in 786.7871ms 200 text/css (791a596a)
+2020-04-15T20:44:51.6270317+07:00 80000006-0001-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-04-15T20:44:51.6312674+07:00 80000002-0002-f500-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js"' (27b0a520)
+2020-04-15T20:44:51.6334621+07:00 80000006-0001-fd00-b63f-84710c7967bb [INF] Request finished in 997.3146ms 200 text/css (791a596a)
+2020-04-15T20:44:51.6438128+07:00 80000002-0002-f500-b63f-84710c7967bb [INF] Request finished in 665.1721ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.6597856+07:00 80000004-0001-f600-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2020-04-15T20:44:51.6758303+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Request finished in 747.8431ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.6785276+07:00 80000004-0002-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/moment.js/moment.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\moment.js\moment.js"' (27b0a520)
+2020-04-15T20:44:51.6848954+07:00 80000002-0001-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/Chart.js/Chart.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\Chart.js\Chart.js"' (27b0a520)
+2020-04-15T20:44:51.6921301+07:00 80000004-0002-f700-b63f-84710c7967bb [INF] Request finished in 777.3072ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7106291+07:00 80000002-0001-f400-b63f-84710c7967bb [INF] Request finished in 833.1647ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7140743+07:00 80000004-0001-f600-b63f-84710c7967bb [INF] Request finished in 884.4944ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7258910+07:00 80000002-0002-f100-b63f-84710c7967bb [INF] Request finished in 304.0329ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7587507+07:00 80000008-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/additional-methods.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\additional-methods.js"' (27b0a520)
+2020-04-15T20:44:51.7621812+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.css"' (27b0a520)
+2020-04-15T20:44:51.7664111+07:00 80000008-0000-f700-b63f-84710c7967bb [INF] Request finished in 881.6102ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7687566+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Request finished in 1130.8851ms 200 text/css (791a596a)
+2020-04-15T20:44:51.7758928+07:00 80000004-0001-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/themes/icon.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jQuery-EasyUI\themes\icon.css"' (27b0a520)
+2020-04-15T20:44:51.7799903+07:00 80000006-0002-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/ckeditor.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\ckeditor.js"' (27b0a520)
+2020-04-15T20:44:51.7847136+07:00 80000004-0001-f900-b63f-84710c7967bb [INF] Request finished in 1026.7614ms 200 text/css (791a596a)
+2020-04-15T20:44:51.7921771+07:00 80000006-0002-f900-b63f-84710c7967bb [INF] Request finished in 853.554ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.7941710+07:00 80000004-0002-f600-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.css"' (27b0a520)
+2020-04-15T20:44:51.8067608+07:00 80000002-0001-f200-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-04-15T20:44:51.8104642+07:00 80000004-0002-f600-b63f-84710c7967bb [INF] Request finished in 1164.2057ms 200 text/css (791a596a)
+2020-04-15T20:44:51.8150937+07:00 80000002-0001-f200-b63f-84710c7967bb [INF] Request finished in 529.1625ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.8272443+07:00 80000008-0001-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/skins/moono/editor.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\skins\moono\editor.css"' (27b0a520)
+2020-04-15T20:44:51.8306069+07:00 80000002-0002-f000-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/shared/lehieu.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\shared\lehieu.js"' (27b0a520)
+2020-04-15T20:44:51.8337781+07:00 80000008-0001-fc00-b63f-84710c7967bb [INF] Request finished in 1183.7253ms 200 text/css (791a596a)
+2020-04-15T20:44:51.8446985+07:00 80000002-0002-f000-b63f-84710c7967bb [INF] Request finished in 551.205ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.8484124+07:00 80000002-0002-f200-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/styles/metro/notify-metro.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\styles\metro\notify-metro.js"' (27b0a520)
+2020-04-15T20:44:51.8555176+07:00 80000002-0002-eb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/index.js   (ca22a1cb)
+2020-04-15T20:44:51.8688627+07:00 80000002-0002-f200-b63f-84710c7967bb [INF] Request finished in 631.9276ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.8787110+07:00 80000002-0002-f300-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/notify/notify.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\notify\notify.js"' (27b0a520)
+2020-04-15T20:44:51.8819344+07:00 80000002-0002-ec00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/image-management.js   (ca22a1cb)
+2020-04-15T20:44:51.8854361+07:00 80000002-0002-f300-b63f-84710c7967bb [INF] Request finished in 912.3097ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.8950503+07:00 80000002-0002-ed00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/app/controllers/product/quantity-management.js   (ca22a1cb)
+2020-04-15T20:44:51.9117580+07:00 80000002-0002-ef00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin-side/js/custom.js   (ca22a1cb)
+2020-04-15T20:44:51.9268510+07:00 80000002-0002-eb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-04-15T20:44:51.9325237+07:00 80000002-0002-ec00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/image-management.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\image-management.js"' (27b0a520)
+2020-04-15T20:44:51.9440925+07:00 80000002-0002-eb00-b63f-84710c7967bb [INF] Request finished in 646.3325ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.9494832+07:00 80000002-0002-ec00-b63f-84710c7967bb [INF] Request finished in 652.0666ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.9578851+07:00 80000002-0002-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jQuery-EasyUI/jquery.easyui.min.js   (ca22a1cb)
+2020-04-15T20:44:51.9631009+07:00 80000002-0002-ef00-b63f-84710c7967bb [INF] Sending file. Request path: '"/admin-side/js/custom.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\admin-side\js\custom.js"' (27b0a520)
+2020-04-15T20:44:51.9662248+07:00 80000002-0002-ed00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/quantity-management.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\app\controllers\product\quantity-management.js"' (27b0a520)
+2020-04-15T20:44:51.9759565+07:00 80000002-0002-ef00-b63f-84710c7967bb [INF] Request finished in 682.7316ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.9815236+07:00 80000002-0002-ed00-b63f-84710c7967bb [INF] Request finished in 685.8088ms 200 application/javascript (791a596a)
+2020-04-15T20:44:51.9857633+07:00 80000002-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-04-15T20:44:51.9928562+07:00 80000006-0002-f800-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-sparklines/jquery.sparkline.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-sparklines\jquery.sparkline.js"' (27b0a520)
+2020-04-15T20:44:51.9965464+07:00 80000004-0001-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/themes/bootstrap/easyui.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jQuery-EasyUI\themes\bootstrap\easyui.css"' (27b0a520)
+2020-04-15T20:44:52.0081633+07:00 80000006-0002-f800-b63f-84710c7967bb [INF] Request finished in 1093.9725ms 200 application/javascript (791a596a)
+2020-04-15T20:44:52.0176084+07:00 80000004-0001-f700-b63f-84710c7967bb [INF] Request finished in 1210.4579ms 200 text/css (791a596a)
+2020-04-15T20:44:52.0324109+07:00 80000002-0001-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2020-04-15T20:44:52.0405654+07:00 80000004-0001-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2020-04-15T20:44:52.0448577+07:00 80000002-0001-f100-b63f-84710c7967bb [INF] Request finished in 753.8292ms 200 application/javascript (791a596a)
+2020-04-15T20:44:52.0506385+07:00 80000004-0001-fb00-b63f-84710c7967bb [INF] Request finished in 1210.6742ms 200 application/javascript (791a596a)
+2020-04-15T20:44:52.0644332+07:00 80000002-0002-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.js"' (27b0a520)
+2020-04-15T20:44:52.0733133+07:00 80000002-0002-f400-b63f-84710c7967bb [INF] Request finished in 845.6299ms 200 application/javascript (791a596a)
+2020-04-15T20:44:52.0789325+07:00 80000002-0002-ee00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/jquery.easyui.min.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\jQuery-EasyUI\jquery.easyui.min.js"' (27b0a520)
+2020-04-15T20:44:52.0827757+07:00 80000002-0002-ee00-b63f-84710c7967bb [INF] Request finished in 798.6383ms 200 application/javascript (791a596a)
+2020-04-15T20:44:52.1335014+07:00 8000000a-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2020-04-15T20:44:52.2295443+07:00 8000000a-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2020-04-15T20:44:52.2655416+07:00 8000000a-0000-f700-b63f-84710c7967bb [INF] Request finished in 123.0246ms 200 font/woff2 (791a596a)
+2020-04-15T20:44:52.8061405+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllCategories   (ca22a1cb)
+2020-04-15T20:44:52.8100726+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=--Select%20category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-04-15T20:44:52.8202981+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:52.8252366+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:52.8319979+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Bill/GetSizes   (ca22a1cb)
+2020-04-15T20:44:52.8384802+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/Admin/Bill/GetColors   (ca22a1cb)
+2020-04-15T20:44:52.8446511+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:52.8473059+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetSizes (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:52.8529250+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:52.8807388+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetSizes\", controller = \"Bill\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetSizes()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.BillController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:52.8887005+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetColors (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:52.8960063+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:52.9007122+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetColors\", controller = \"Bill\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetColors()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.BillController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:52.9074501+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Invalid (dad538d7)
+2020-04-15T20:44:52.9197322+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetSizes (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:52.9242075+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:52.9300497+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:53.1337709+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:53.1490272+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetColors (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:53.1599583+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllCategories\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:53.1638064+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:53.1736228+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("225"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-04-15T20:44:53.1831306+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:53.1968054+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/config.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.2036021+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name]
+FROM [Sizes] AS [dto]" (0723d8ff)
+2020-04-15T20:44:53.2148240+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:53.2323468+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetSizes (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 286.6929ms. (50a9e262)
+2020-04-15T20:44:53.2480170+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:53.2562813+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.SizeViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:53.2720727+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Code]
+FROM [Colors] AS [dto]" (0723d8ff)
+2020-04-15T20:44:53.3002514+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/config.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\config.js"' (27b0a520)
+2020-04-15T20:44:53.3454445+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetSizes (LeHieuCoreApp)" in 389.2179ms (afa2e885)
+2020-04-15T20:44:53.3493064+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetColors (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 126.1615ms. (50a9e262)
+2020-04-15T20:44:53.3581620+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetSizes (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:53.3629477+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ColorViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:53.3759983+07:00 80000004-0002-ee00-b63f-84710c7967bb [INF] Request finished in 538.0907ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:53.3876243+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Request finished in 426.7517ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.4134224+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetColors (LeHieuCoreApp)" in 471.1746ms (afa2e885)
+2020-04-15T20:44:53.4334339+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.BillController.GetColors (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:53.4394889+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2020-04-15T20:44:53.4417972+07:00 8000000c-0000-f700-b63f-84710c7967bb [INF] Request finished in 613.7026ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:53.4467584+07:00 80000006-0001-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/lang/en.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.4583717+07:00 80000004-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/skins/moono-lisa/editor.css?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.4671616+07:00 80000006-0001-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/lang/en.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\lang\en.js"' (27b0a520)
+2020-04-15T20:44:53.4855867+07:00 80000006-0001-f700-b63f-84710c7967bb [INF] Request finished in 29.7822ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.4919445+07:00 80000004-0001-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/skins/moono-lisa/editor.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\skins\moono-lisa\editor.css"' (27b0a520)
+2020-04-15T20:44:53.5006382+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("15"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-04-15T20:44:53.5080971+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2020-04-15T20:44:53.5138473+07:00 80000004-0001-f100-b63f-84710c7967bb [INF] Request finished in 58.3589ms 200 text/css (791a596a)
+2020-04-15T20:44:53.5258723+07:00 80000008-0001-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/styles.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.5461232+07:00 80000008-0001-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/styles.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\styles.js"' (27b0a520)
+2020-04-15T20:44:53.5519578+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 329.156ms. (50a9e262)
+2020-04-15T20:44:53.5547883+07:00 80000008-0001-f700-b63f-84710c7967bb [INF] Request finished in 38.8296ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.5582573+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-15T20:44:53.5752749+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductCategoryViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:53.5965133+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 671.8372ms. (50a9e262)
+2020-04-15T20:44:53.6072399+07:00 80000006-0002-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/colorbutton/plugin.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.6092022+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:53.6200910+07:00 80000006-0002-ee00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/colorbutton/plugin.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\colorbutton\plugin.js"' (27b0a520)
+2020-04-15T20:44:53.6250414+07:00 80000006-0002-ee00-b63f-84710c7967bb [INF] Request finished in 32.2387ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.6492660+07:00 8000000e-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/panelbutton/plugin.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.6602796+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)" in 490.7111ms (afa2e885)
+2020-04-15T20:44:53.6656278+07:00 8000000e-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/panelbutton/plugin.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\panelbutton\plugin.js"' (27b0a520)
+2020-04-15T20:44:53.6697886+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllCategories (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:53.6743417+07:00 8000000e-0000-f700-b63f-84710c7967bb [INF] Request finished in 20.749ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.6784097+07:00 80000006-0001-fb00-b63f-84710c7967bb [INF] Request finished in 869.8692ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:53.6929526+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 835.7607ms (afa2e885)
+2020-04-15T20:44:53.7093450+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:53.7233781+07:00 80000008-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css   (ca22a1cb)
+2020-04-15T20:44:53.7269194+07:00 80000008-0003-fa00-b63f-84710c7967bb [INF] Request finished in 902.9591ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:53.7320641+07:00 80000008-0002-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css   (ca22a1cb)
+2020-04-15T20:44:53.7378912+07:00 80000004-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/colorbutton/lang/en.js?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:53.7461083+07:00 80000010-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/tableselection/styles/tableselection.css   (ca22a1cb)
+2020-04-15T20:44:53.7553294+07:00 8000000a-0001-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/scayt/dialogs/dialog.css   (ca22a1cb)
+2020-04-15T20:44:53.7613405+07:00 80000008-0002-ee00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css"' (27b0a520)
+2020-04-15T20:44:53.7735812+07:00 8000000a-0001-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/scayt/dialogs/dialog.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\scayt\dialogs\dialog.css"' (27b0a520)
+2020-04-15T20:44:53.8048404+07:00 80000008-0002-ee00-b63f-84710c7967bb [INF] Request finished in 37.2424ms 200 text/css (791a596a)
+2020-04-15T20:44:53.8206339+07:00 80000004-0002-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/colorbutton/lang/en.js"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\colorbutton\lang\en.js"' (27b0a520)
+2020-04-15T20:44:53.8264732+07:00 80000010-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/tableselection/styles/tableselection.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\tableselection\styles\tableselection.css"' (27b0a520)
+2020-04-15T20:44:53.8349607+07:00 80000004-0002-f400-b63f-84710c7967bb [INF] Request finished in 98.8009ms 200 application/javascript (791a596a)
+2020-04-15T20:44:53.8406753+07:00 80000010-0000-f700-b63f-84710c7967bb [INF] Request finished in 115.8478ms 200 text/css (791a596a)
+2020-04-15T20:44:53.8470630+07:00 8000000a-0001-f700-b63f-84710c7967bb [INF] Request finished in 66.4095ms 200 text/css (791a596a)
+2020-04-15T20:44:53.8554925+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/product/GetAllPaging?categoryId=&keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-04-15T20:44:53.8603460+07:00 8000000a-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-04-15T20:44:53.8661305+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:53.8730726+07:00 8000000a-0001-fc00-b63f-84710c7967bb [INF] Request finished in 54.143ms 404  (791a596a)
+2020-04-15T20:44:53.8770129+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:53.8949750+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:53.9146753+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:53.9170211+07:00 80000008-0001-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css"' (27b0a520)
+2020-04-15T20:44:53.9281125+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:53.9302293+07:00 80000008-0001-fb00-b63f-84710c7967bb [INF] Request finished in 219.5342ms 200 text/css (791a596a)
+2020-04-15T20:44:53.9385471+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2020-04-15T20:44:53.9477840+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-04-15T20:44:53.9555127+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-15T20:44:53.9635658+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 42.0282ms. (50a9e262)
+2020-04-15T20:44:53.9694845+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"LeHieuCoreApp.Utilities.Dtos.PagedResult`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:53.9775569+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)" in 94.668ms (afa2e885)
+2020-04-15T20:44:53.9810154+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetAllPaging (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:53.9891705+07:00 80000006-0001-f100-b63f-84710c7967bb [INF] Request finished in 201.5363ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:44:54.0212635+07:00 80000006-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/contents.css?t=H8DC   (ca22a1cb)
+2020-04-15T20:44:54.0312570+07:00 80000008-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/ckeditor/plugins/tableselection/styles/tableselection.css   (ca22a1cb)
+2020-04-15T20:44:54.0331356+07:00 80000006-0002-f400-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/contents.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\contents.css"' (27b0a520)
+2020-04-15T20:44:54.0390548+07:00 80000006-0002-f400-b63f-84710c7967bb [INF] Request finished in 17.4965ms 200 text/css (791a596a)
+2020-04-15T20:44:54.0441044+07:00 80000008-0001-f100-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/ckeditor/plugins/tableselection/styles/tableselection.css"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\lib\ckeditor\plugins\tableselection\styles\tableselection.css"' (27b0a520)
+2020-04-15T20:44:54.0494624+07:00 80000008-0001-f100-b63f-84710c7967bb [INF] Request finished in 23.0905ms 200 text/css (791a596a)
+2020-04-15T20:44:54.0704003+07:00 80000008-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-04-15T20:44:54.0788353+07:00 80000008-0002-f400-b63f-84710c7967bb [INF] Request finished in 10.0679ms 404  (791a596a)
+2020-04-15T20:44:58.2556136+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/Product/GetImages?productId=20   (ca22a1cb)
+2020-04-15T20:44:58.2600060+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:44:58.2673174+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetImages\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetImages(Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:44:58.2709278+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:44:58.2745373+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:44:58.2825695+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:44:58.3687261+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[ProductId], CASE
+    WHEN [x].[ProductId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.Product].[Name], [x.Product].[CategoryId], [x.Product].[Image], [x.Product].[Price], [x.Product].[PromotionPrice], [x.Product].[OriginalPrice], [x.Product].[Description], [x.Product].[Content], [x.Product].[HomeFlag], [x.Product].[HotFlag], [x.Product].[ViewCount], [x.Product].[Tags], [x.Product].[Unit], CASE
+    WHEN [x.Product].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.Product.ProductCategory].[Id] AS [Id0], [x.Product.ProductCategory].[Name] AS [Name0], [x.Product.ProductCategory].[Description] AS [Description0], [x.Product.ProductCategory].[ParentId], [x.Product.ProductCategory].[HomeOrder], [x.Product.ProductCategory].[Image] AS [Image0], [x.Product.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.Product.ProductCategory].[DateCreated], [x.Product.ProductCategory].[DateModified], [x.Product.ProductCategory].[SortOrder], [x.Product.ProductCategory].[Status], [x.Product.ProductCategory].[SeoPageTitle], [x.Product.ProductCategory].[SeoAlias], [x.Product.ProductCategory].[SeoKeywords], [x.Product.ProductCategory].[SeoDescription], [x.Product].[SeoPageTitle] AS [SeoPageTitle0], [x.Product].[SeoAlias] AS [SeoAlias0], [x.Product].[SeoKeywords] AS [SeoKeywords0], [x.Product].[SeoDescription] AS [SeoDescription0], [x.Product].[DateCreated] AS [DateCreated0], [x.Product].[DateModified] AS [DateModified0], [x.Product].[Status] AS [Status0], [x].[Path], [x].[Caption]
+FROM [ProductImages] AS [x]
+INNER JOIN [Products] AS [x.Product] ON [x].[ProductId] = [x.Product].[Id]
+INNER JOIN [ProductCategories] AS [x.Product.ProductCategory] ON [x.Product].[CategoryId] = [x.Product.ProductCategory].[Id]
+WHERE [x].[ProductId] = @__productId_0
+ORDER BY [x].[Id], [x.Product.ProductCategory].[Id]" (0723d8ff)
+2020-04-15T20:44:58.3826898+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 103.5342ms. (50a9e262)
+2020-04-15T20:44:58.3879553+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductImageViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:44:58.3943737+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)" in 123.1829ms (afa2e885)
+2020-04-15T20:44:58.3994514+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:44:58.4051121+07:00 8000000a-0003-fa00-b63f-84710c7967bb [INF] Request finished in 147.6504ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:45:08.7696153+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/Admin/Upload/UploadImage multipart/form-data; boundary=----WebKitFormBoundaryKeO3gTIfi5ONRvNp 29687 (ca22a1cb)
+2020-04-15T20:45:08.7766800+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:45:08.7818512+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"UploadImage\", controller = \"Upload\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UploadImage()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.UploadController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:45:08.7853708+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:45:08.7913749+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:45:08.8610928+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 65.6714ms. (50a9e262)
+2020-04-15T20:45:08.8646234+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-04-15T20:45:08.8691596+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)" in 83.5963ms (afa2e885)
+2020-04-15T20:45:08.8734151+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:45:08.8774465+07:00 8000000a-0002-f400-b63f-84710c7967bb [INF] Request finished in 112.1085ms 200 text/plain; charset=utf-8 (791a596a)
+2020-04-15T20:45:08.9143830+07:00 80000012-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/uploaded/images/20200415/90301590_138051947727965_4843686940437905408_n.jpg   (ca22a1cb)
+2020-04-15T20:45:09.1176400+07:00 80000012-0000-f700-b63f-84710c7967bb [INF] Sending file. Request path: '"/uploaded/images/20200415/90301590_138051947727965_4843686940437905408_n.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\uploaded\images\20200415\90301590_138051947727965_4843686940437905408_n.jpg"' (27b0a520)
+2020-04-15T20:45:09.2015876+07:00 80000012-0000-f700-b63f-84710c7967bb [INF] Request finished in 210.5067ms 200 image/jpeg (791a596a)
+2020-04-15T20:45:21.2070941+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/Admin/Upload/UploadImage multipart/form-data; boundary=----WebKitFormBoundaryH7idDS9lq8viVmSf 95551 (ca22a1cb)
+2020-04-15T20:45:21.2165455+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:45:21.2198524+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"UploadImage\", controller = \"Upload\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult UploadImage()" on controller "LeHieuCoreApp.Areas.Admin.Controllers.UploadController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:45:21.2245000+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:45:21.2311751+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:45:21.2663233+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 32.2238ms. (50a9e262)
+2020-04-15T20:45:21.2694156+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-04-15T20:45:21.2851849+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)" in 50.3255ms (afa2e885)
+2020-04-15T20:45:21.2892130+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.UploadController.UploadImage (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:45:21.2953315+07:00 80000014-0000-f700-b63f-84710c7967bb [INF] Request finished in 86.7906ms 200 text/plain; charset=utf-8 (791a596a)
+2020-04-15T20:45:21.3189625+07:00 8000000c-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/uploaded/images/20200415/another_.jpg   (ca22a1cb)
+2020-04-15T20:45:21.3265039+07:00 8000000c-0003-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/uploaded/images/20200415/another_.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\uploaded\images\20200415\another_.jpg"' (27b0a520)
+2020-04-15T20:45:21.3329163+07:00 8000000c-0003-fa00-b63f-84710c7967bb [INF] Request finished in 12.4273ms 200 image/jpeg (791a596a)
+2020-04-15T20:45:31.5333422+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/Product/SaveImages application/x-www-form-urlencoded; charset=UTF-8 170 (ca22a1cb)
+2020-04-15T20:45:31.5380322+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:45:31.5489827+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"SaveImages\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SaveImages(Int32, System.String[])" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:45:31.5522553+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:45:31.5619197+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:45:31.5661328+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:45:31.5819549+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Caption], [x].[Path], [x].[ProductId]
+FROM [ProductImages] AS [x]
+WHERE [x].[ProductId] = @__productId_0" (0723d8ff)
+2020-04-15T20:45:31.7402472+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (Size = 250), @p1='?' (Size = 250), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductImages] ([Caption], [Path], [ProductId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [ProductImages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2020-04-15T20:45:31.7539841+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (Size = 250), @p1='?' (Size = 250), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductImages] ([Caption], [Path], [ProductId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [ProductImages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2020-04-15T20:45:31.7606304+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 195.9675ms. (50a9e262)
+2020-04-15T20:45:31.7632011+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String[]"'. (8a1b66c8)
+2020-04-15T20:45:31.7689881+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)" in 215.4329ms (afa2e885)
+2020-04-15T20:45:31.7715313+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:45:31.7742922+07:00 8000000a-0001-f100-b63f-84710c7967bb [INF] Request finished in 241.9144ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:45:37.3611967+07:00 8000000c-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/popper.js/umd/popper.js.map   (ca22a1cb)
+2020-04-15T20:45:37.3730850+07:00 80000016-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.js.map   (ca22a1cb)
+2020-04-15T20:45:37.3778762+07:00 8000000c-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.bundle.js.map   (ca22a1cb)
+2020-04-15T20:45:37.3980399+07:00 8000000c-0001-f100-b63f-84710c7967bb [INF] The file "/lib/popper.js/umd/popper.js.map" was not modified (f1f8d725)
+2020-04-15T20:45:37.4290127+07:00 80000016-0000-f700-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/js/bootstrap.js.map" was not modified (f1f8d725)
+2020-04-15T20:45:37.4413485+07:00 8000000c-0002-f400-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/js/bootstrap.bundle.js.map" was not modified (f1f8d725)
+2020-04-15T20:45:37.4532730+07:00 80000016-0000-f700-b63f-84710c7967bb [INF] Request finished in 81.3447ms 304 text/plain (791a596a)
+2020-04-15T20:45:37.4559740+07:00 8000000c-0002-f400-b63f-84710c7967bb [INF] Request finished in 89.3985ms 304 text/plain (791a596a)
+2020-04-15T20:45:37.4649628+07:00 8000000c-0001-f100-b63f-84710c7967bb [INF] Request finished in 57.1165ms 304 text/plain (791a596a)
+2020-04-15T20:45:37.6189329+07:00 8000000e-0002-f400-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2020-04-15T20:45:37.6255997+07:00 8000000a-0002-ee00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.min.css.map   (ca22a1cb)
+2020-04-15T20:45:37.6269987+07:00 8000000e-0002-f400-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/css/bootstrap.css.map" was not modified (f1f8d725)
+2020-04-15T20:45:37.6381939+07:00 8000000e-0002-f400-b63f-84710c7967bb [INF] Request finished in 12.5262ms 304 text/plain (791a596a)
+2020-04-15T20:45:37.6400595+07:00 8000000a-0002-ee00-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/css/bootstrap.min.css.map" was not modified (f1f8d725)
+2020-04-15T20:45:37.6452752+07:00 8000000a-0002-ee00-b63f-84710c7967bb [INF] Request finished in 20.9461ms 304 text/plain (791a596a)
+2020-04-15T20:45:49.4608424+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/admin/Product/GetImages?productId=20   (ca22a1cb)
+2020-04-15T20:45:49.4660370+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:45:49.4764756+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetImages\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetImages(Int32)" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:45:49.4845923+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:45:49.4906943+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:45:49.4949616+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:45:49.5098409+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[ProductId], CASE
+    WHEN [x].[ProductId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.Product].[Name], [x.Product].[CategoryId], [x.Product].[Image], [x.Product].[Price], [x.Product].[PromotionPrice], [x.Product].[OriginalPrice], [x.Product].[Description], [x.Product].[Content], [x.Product].[HomeFlag], [x.Product].[HotFlag], [x.Product].[ViewCount], [x.Product].[Tags], [x.Product].[Unit], CASE
+    WHEN [x.Product].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.Product.ProductCategory].[Id] AS [Id0], [x.Product.ProductCategory].[Name] AS [Name0], [x.Product.ProductCategory].[Description] AS [Description0], [x.Product.ProductCategory].[ParentId], [x.Product.ProductCategory].[HomeOrder], [x.Product.ProductCategory].[Image] AS [Image0], [x.Product.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.Product.ProductCategory].[DateCreated], [x.Product.ProductCategory].[DateModified], [x.Product.ProductCategory].[SortOrder], [x.Product.ProductCategory].[Status], [x.Product.ProductCategory].[SeoPageTitle], [x.Product.ProductCategory].[SeoAlias], [x.Product.ProductCategory].[SeoKeywords], [x.Product.ProductCategory].[SeoDescription], [x.Product].[SeoPageTitle] AS [SeoPageTitle0], [x.Product].[SeoAlias] AS [SeoAlias0], [x.Product].[SeoKeywords] AS [SeoKeywords0], [x.Product].[SeoDescription] AS [SeoDescription0], [x.Product].[DateCreated] AS [DateCreated0], [x.Product].[DateModified] AS [DateModified0], [x.Product].[Status] AS [Status0], [x].[Path], [x].[Caption]
+FROM [ProductImages] AS [x]
+INNER JOIN [Products] AS [x.Product] ON [x].[ProductId] = [x.Product].[Id]
+INNER JOIN [ProductCategories] AS [x.Product.ProductCategory] ON [x.Product].[CategoryId] = [x.Product.ProductCategory].[Id]
+WHERE [x].[ProductId] = @__productId_0
+ORDER BY [x].[Id], [x.Product.ProductCategory].[Id]" (0723d8ff)
+2020-04-15T20:45:49.5317883+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.Product.ProductCategory.Products].[Id] AS [Id1], [x.Product.ProductCategory.Products].[Name], [x.Product.ProductCategory.Products].[CategoryId], [x.Product.ProductCategory.Products].[Image], [x.Product.ProductCategory.Products].[Price], [x.Product.ProductCategory.Products].[PromotionPrice], [x.Product.ProductCategory.Products].[OriginalPrice], [x.Product.ProductCategory.Products].[Description], [x.Product.ProductCategory.Products].[Content], [x.Product.ProductCategory.Products].[HomeFlag], [x.Product.ProductCategory.Products].[HotFlag], [x.Product.ProductCategory.Products].[ViewCount], [x.Product.ProductCategory.Products].[Tags], [x.Product.ProductCategory.Products].[Unit], [x.Product.ProductCategory.Products].[SeoPageTitle], [x.Product.ProductCategory.Products].[SeoAlias], [x.Product.ProductCategory.Products].[SeoKeywords], [x.Product.ProductCategory.Products].[SeoDescription], [x.Product.ProductCategory.Products].[DateCreated], [x.Product.ProductCategory.Products].[DateModified], [x.Product.ProductCategory.Products].[Status]
+FROM [Products] AS [x.Product.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.Product.ProductCategory0].[Id] AS [Id0]
+    FROM [ProductImages] AS [x0]
+    INNER JOIN [Products] AS [x.Product0] ON [x0].[ProductId] = [x.Product0].[Id]
+    INNER JOIN [ProductCategories] AS [x.Product.ProductCategory0] ON [x.Product0].[CategoryId] = [x.Product.ProductCategory0].[Id]
+    WHERE [x0].[ProductId] = @__productId_0
+) AS [t] ON [x.Product.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-15T20:45:49.5510363+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 53.0443ms. (50a9e262)
+2020-04-15T20:45:49.5567392+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LeHieuCoreApp.Application.ViewModels.Product.ProductImageViewModel, LeHieuCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-15T20:45:49.5659201+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)" in 84.0448ms (afa2e885)
+2020-04-15T20:45:49.5702569+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.GetImages (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:45:49.5748597+07:00 8000000e-0001-f100-b63f-84710c7967bb [INF] Request finished in 114.7046ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-15T20:45:49.6150971+07:00 8000000e-0003-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/uploaded/images/20200415/another_.jpg   (ca22a1cb)
+2020-04-15T20:45:49.6339322+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44344/uploaded/images/20200415/90301590_138051947727965_4843686940437905408_n.jpg   (ca22a1cb)
+2020-04-15T20:45:49.6895630+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/uploaded/images/20200415/90301590_138051947727965_4843686940437905408_n.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\uploaded\images\20200415\90301590_138051947727965_4843686940437905408_n.jpg"' (27b0a520)
+2020-04-15T20:45:49.7083048+07:00 8000000e-0003-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/uploaded/images/20200415/another_.jpg"'. Physical path: '"C:\Users\LeHieu\source\repos\LeHieuCoreApp\LeHieuCoreApp\wwwroot\uploaded\images\20200415\another_.jpg"' (27b0a520)
+2020-04-15T20:45:49.7115104+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] Request finished in 93.0532ms 200 image/jpeg (791a596a)
+2020-04-15T20:45:49.7139276+07:00 8000000e-0003-fa00-b63f-84710c7967bb [INF] Request finished in 114.5924ms 200 image/jpeg (791a596a)
+2020-04-15T20:45:55.3498462+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44344/admin/Product/SaveImages application/x-www-form-urlencoded; charset=UTF-8 170 (ca22a1cb)
+2020-04-15T20:45:55.3546564+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executing endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)"' (500cc934)
+2020-04-15T20:45:55.3570584+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"SaveImages\", controller = \"Product\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SaveImages(Int32, System.String[])" on controller "LeHieuCoreApp.Areas.Admin.Controllers.ProductController" ("LeHieuCoreApp"). (122b2fdf)
+2020-04-15T20:45:55.3596567+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-15T20:45:55.3629675+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executing action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)" - Validation state: Valid (dad538d7)
+2020-04-15T20:45:55.3681128+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LeHieuCoreApp.Data.EF " (9958f5bb)
+2020-04-15T20:45:55.3729780+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Caption], [x].[Path], [x].[ProductId]
+FROM [ProductImages] AS [x]
+WHERE [x].[ProductId] = @__productId_0" (0723d8ff)
+2020-04-15T20:45:55.4253558+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executed DbCommand ("31"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 250), @p3='?' (Size = 250), @p4='?' (DbType = Int32), @p5='?' (Size = 250), @p6='?' (Size = 250), @p7='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [ProductImages]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [ProductImages]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DECLARE @inserted2 TABLE ([Id] int, [_Position] [int]);
+MERGE [ProductImages] USING (
+VALUES (@p2, @p3, @p4, 0),
+(@p5, @p6, @p7, 1)) AS i ([Caption], [Path], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Caption], [Path], [ProductId])
+VALUES (i.[Caption], i.[Path], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted2;
+
+SELECT [t].[Id] FROM [ProductImages] t
+INNER JOIN @inserted2 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];" (0723d8ff)
+2020-04-15T20:45:55.4300270+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executed action method "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 64.4032ms. (50a9e262)
+2020-04-15T20:45:55.4350662+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String[]"'. (8a1b66c8)
+2020-04-15T20:45:55.4468583+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executed action "LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)" in 78.3802ms (afa2e885)
+2020-04-15T20:45:55.4513456+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Executed endpoint '"LeHieuCoreApp.Areas.Admin.Controllers.ProductController.SaveImages (LeHieuCoreApp)"' (99874f2b)
+2020-04-15T20:45:55.4540900+07:00 80000018-0000-f700-b63f-84710c7967bb [INF] Request finished in 106.8634ms 200 application/json; charset=utf-8 (791a596a)
