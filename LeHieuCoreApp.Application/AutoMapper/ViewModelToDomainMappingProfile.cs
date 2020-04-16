@@ -32,12 +32,6 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<BillDetailViewModel, BillDetail>()
               .ConstructUsing(c => new BillDetail(c.Id, c.BillId, c.ProductId,
               c.Quantity, c.Price, c.ColorId, c.SizeId));
-
-            CreateMap<AnnouncementViewModel, Announcement>()
-                .ConstructUsing(c => new Announcement(c.Title, c.Content, c.UserId, c.Status));
-
-            CreateMap<AnnouncementUserViewModel, AnnouncementUser>()
-                .ConstructUsing(c => new AnnouncementUser(c.AnnouncementId, c.UserId, c.HasRead));
         }
     }
 }

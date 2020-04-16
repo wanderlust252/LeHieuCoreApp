@@ -14,8 +14,7 @@ namespace LeHieuCoreApp.Application.AutoMapper
         {
             CreateMap<ProductCategory, ProductCategoryViewModel>();
             CreateMap<Function, FunctionViewModel>();
-            CreateMap<Product, ProductViewModel>();
-            CreateMap<Announcement, AnnouncementViewModel>().MaxDepth(2);
+            CreateMap<Product, ProductViewModel>(); 
             CreateMap<AppUser, AppUserViewModel>();
             CreateMap<AppRole, AppRoleViewModel>();
             //CreateMap<Permission, PermissionViewModel>();
@@ -26,6 +25,7 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<Size, SizeViewModel>();
             CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);// maxdepth để k bị lỗi
             CreateMap<ProductImage, ProductImageViewModel>().MaxDepth(2);
+            CreateMap<WholePrice, WholePriceViewModel>().MaxDepth(2);
         }
     }
 }
