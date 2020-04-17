@@ -53,7 +53,7 @@ namespace LeHieuCoreApp
                     Configuration.GetConnectionString("DefaultConnection"),
                     o=>o.MigrationsAssembly("LeHieuCoreApp.Data.EF")));
             services.AddIdentity<AppUser,AppRole>()
-                .AddDefaultUI(UIFramework.Bootstrap4)
+               // .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<AppDbContext>();
             services.Configure<IdentityOptions>(options =>
             {
@@ -113,7 +113,7 @@ namespace LeHieuCoreApp
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory loggerFactory )
-        {
+       {
             loggerFactory.AddFile("Logs/lehieu-{Date}.txt");
             if (env.IsDevelopment())
             {

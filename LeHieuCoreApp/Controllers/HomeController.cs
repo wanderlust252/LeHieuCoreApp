@@ -9,8 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using LeHieuCoreApp.Extensions;
 
 namespace LeHieuCoreApp.Controllers
-{
-    [Authorize]
+{ 
     public class HomeController : Controller
     {
         public IActionResult Index()
