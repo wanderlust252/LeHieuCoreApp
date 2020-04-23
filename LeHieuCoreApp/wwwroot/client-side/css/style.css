@@ -4158,7 +4158,7 @@ html {
 }
 .cms-home-page .mega-menu-category {
 	width: 100%;
-	display: inline-block !important;
+	display: inline-block;
 }
 .mega-menu-category ul {
 	padding: 0px;
