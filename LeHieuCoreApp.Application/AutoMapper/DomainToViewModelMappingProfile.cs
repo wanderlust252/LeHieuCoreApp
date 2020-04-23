@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using LeHieuCoreApp.Application.ViewModels.Blog;
+using LeHieuCoreApp.Application.ViewModels.Common;
 using LeHieuCoreApp.Application.ViewModels.Product;
 using LeHieuCoreApp.Application.ViewModels.System;
 using LeHieuCoreApp.Data.Entities;
@@ -26,6 +28,12 @@ namespace LeHieuCoreApp.Application.AutoMapper
             CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);// maxdepth để k bị lỗi
             CreateMap<ProductImage, ProductImageViewModel>().MaxDepth(2);
             CreateMap<WholePrice, WholePriceViewModel>().MaxDepth(2);
+
+            CreateMap<Blog, BlogViewModel>().MaxDepth(2);
+            CreateMap<BlogTag, BlogTagViewModel>().MaxDepth(2);
+            CreateMap<Slide, SlideViewModel>().MaxDepth(2);
+            CreateMap<SystemConfig, SystemConfigViewModel>().MaxDepth(2);
+            CreateMap<Footer, FooterViewModel>().MaxDepth(2);
         }
     }
 }
