@@ -26,6 +26,7 @@ using LeHieuCoreApp.Helpers;
 using LeHieuCoreApp.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using LeHieuCoreApp.Authorization;
+using LeHieuCoreApp.Services;
 
 namespace LeHieuCoreApp
 {
@@ -54,7 +55,8 @@ namespace LeHieuCoreApp
                     o=>o.MigrationsAssembly("LeHieuCoreApp.Data.EF")));
             services.AddIdentity<AppUser,AppRole>()
                // .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<AppDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
             services.Configure<IdentityOptions>(options =>
             {
                 // Password settings
@@ -73,14 +75,19 @@ namespace LeHieuCoreApp
             });
             services.AddAutoMapper();
             // Add application services.
-            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+            
             services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
 
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddSingleton(Mapper.Configuration);
             services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
             services.AddTransient<DbInitializer>();
-            
+
+
+            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 
