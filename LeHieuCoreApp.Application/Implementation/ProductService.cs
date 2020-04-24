@@ -310,6 +310,8 @@ namespace LeHieuCoreApp.Application.Implementation
                             Id = t.Id,
                             Name = t.Name
                         };
+            // tags join productTags theo productId 
+            //lay ra object TagViewModel co Id = t.Id va Name=t.Name
             return query.ToList();
 
         }
