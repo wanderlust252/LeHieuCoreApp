@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using LeHieuCoreApp.Application.ViewModels.Common;
 using LeHieuCoreApp.Application.ViewModels.Product;
 using LeHieuCoreApp.Utilities.Dtos;
 
@@ -36,5 +37,10 @@ namespace LeHieuCoreApp.Application.Interfaces
         List<ProductViewModel> GetLastest(int top);
 
         List<ProductViewModel> GetHotProduct(int top);
+        List<ProductViewModel> GetRelatedProducts(int id, int top);
+
+        List<ProductViewModel> GetUpsellProducts(int top);
+
+        List<TagViewModel> GetProductTags(int productId);
     }
 }
