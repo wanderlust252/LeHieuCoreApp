@@ -27,6 +27,7 @@ using LeHieuCoreApp.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using LeHieuCoreApp.Authorization;
 using LeHieuCoreApp.Services;
+using PaulMiami.AspNetCore.Mvc.Recaptcha;
 
 namespace LeHieuCoreApp
 {
@@ -73,6 +74,12 @@ namespace LeHieuCoreApp
                 // User settings
                 options.User.RequireUniqueEmail = true;
             });
+            services.AddRecaptcha(new RecaptchaOptions()
+            {
+                SiteKey = Configuration["Recaptcha:SiteKey"],
+                SecretKey= Configuration["Recaptcha:SecretKey"]
+            });
+            
             services.AddAutoMapper();
             // Add application services.
             

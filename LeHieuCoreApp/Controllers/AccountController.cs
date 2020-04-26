@@ -15,6 +15,7 @@ using LeHieuCoreApp.Models.AccountViewModels;
 using LeHieuCoreApp.Services;
 using LeHieuCoreApp.Data.Entities;
 using LeHieuCoreApp.Data.Enums;
+using PaulMiami.AspNetCore.Mvc.Recaptcha;
 
 namespace LeHieuCoreApp.Controllers
 {
@@ -64,7 +65,7 @@ namespace LeHieuCoreApp.Controllers
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
@@ -218,7 +219,8 @@ namespace LeHieuCoreApp.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken] 
+        [ValidateRecaptcha]
         [Route("register.html")]
         public async Task<IActionResult> Register(RegisterViewModel model, string returnUrl = null)
         {
