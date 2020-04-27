@@ -52,8 +52,8 @@
             $('#modal-detail').modal('show');
         });
         $("#ddl-show-page").on('change', function () {
-            lehieu.configs.pageSize = $(this).val();
-            lehieu.configs.pageIndex = 1;
+            tedu.configs.pageSize = $(this).val();
+            tedu.configs.pageIndex = 1;
             loadData(true);
         });
 
@@ -65,7 +65,7 @@
                 url: "/Admin/Bill/GetById",
                 data: { id: that },
                 beforeSend: function () {
-                    lehieu.startLoading();
+                    tedu.startLoading();
                 },
                 success: function (response) {
                     var data = response;
@@ -101,12 +101,12 @@
                         $('#tbl-bill-details').html(render);
                     }
                     $('#modal-detail').modal('show');
-                    lehieu.stopLoading();
+                    tedu.stopLoading();
 
                 },
                 error: function (e) {
-                    lehieu.notify('Has an error in progress', 'error');
-                    lehieu.stopLoading();
+                    tedu.notify('Has an error in progress', 'error');
+                    tedu.stopLoading();
                 }
             });
         });
@@ -153,19 +153,19 @@
                     },
                     dataType: "json",
                     beforeSend: function () {
-                        lehieu.startLoading();
+                        tedu.startLoading();
                     },
                     success: function (response) {
-                        lehieu.notify('Save order successful', 'success');
+                        tedu.notify('Save order successful', 'success');
                         $('#modal-detail').modal('hide');
                         resetFormMaintainance();
 
-                        lehieu.stopLoading();
+                        tedu.stopLoading();
                         loadData(true);
                     },
                     error: function () {
-                        lehieu.notify('Has an error in progress', 'error');
-                        lehieu.stopLoading();
+                        tedu.notify('Has an error in progress', 'error');
+                        tedu.stopLoading();
                     }
                 });
                 return false;
@@ -201,12 +201,12 @@
                 url: "/Admin/Bill/ExportExcel",
                 data: { billId: that },
                 beforeSend: function () {
-                    lehieu.startLoading();
+                    tedu.startLoading();
                 },
                 success: function (response) {
                     window.location.href = response;
 
-                    lehieu.stopLoading();
+                    tedu.stopLoading();
 
                 }
             });
@@ -254,7 +254,7 @@
                 cachedObj.products = response;
             },
             error: function () {
-                lehieu.notify('Has an error in progress', 'error');
+                tedu.notify('Has an error in progress', 'error');
             }
         });
     }
@@ -268,7 +268,7 @@
                 cachedObj.colors = response;
             },
             error: function () {
-                lehieu.notify('Has an error in progress', 'error');
+                tedu.notify('Has an error in progress', 'error');
             }
         });
     }
@@ -282,7 +282,7 @@
                 cachedObj.sizes = response;
             },
             error: function () {
-                lehieu.notify('Has an error in progress', 'error');
+                tedu.notify('Has an error in progress', 'error');
             }
         });
     }
@@ -343,12 +343,12 @@
                 startDate: $('#txtFromDate').val(),
                 endDate: $('#txtToDate').val(),
                 keyword: $('#txtSearchKeyword').val(),
-                page: lehieu.configs.pageIndex,
-                pageSize: lehieu.configs.pageSize
+                page: tedu.configs.pageIndex,
+                pageSize: tedu.configs.pageSize
             },
             dataType: "json",
             beforeSend: function () {
-                lehieu.startLoading();
+                tedu.startLoading();
             },
             success: function (response) {
                 var template = $('#table-template').html();
@@ -359,7 +359,7 @@
                             CustomerName: item.CustomerName,
                             Id: item.Id,
                             PaymentMethod: getPaymentMethodName(item.PaymentMethod),
-                            DateCreated: lehieu.dateTimeFormatJson(item.DateCreated),
+                            DateCreated: tedu.dateTimeFormatJson(item.DateCreated),
                             BillStatus: getBillStatusName(item.BillStatus)
                         });
                     });
@@ -378,7 +378,7 @@
                     $("#lbl-total-records").text('0');
                     $('#tbl-content').html('');
                 }
-                lehieu.stopLoading();
+                tedu.stopLoading();
             },
             error: function (status) {
                 console.log(status);
@@ -402,7 +402,7 @@
         else return '';
     }
     function wrapPaging(recordCount, callBack, changePageSize) {
-        var totalsize = Math.ceil(recordCount / lehieu.configs.pageSize);
+        var totalsize = Math.ceil(recordCount / tedu.configs.pageSize);
         //Unbind pagination if it existed or click change pagesize
         if ($('#paginationUL a').length === 0 || changePageSize === true) {
             $('#paginationUL').empty();
@@ -418,7 +418,7 @@
             next: 'Tiếp',
             last: 'Cuối',
             onPageClick: function (event, p) {
-                lehieu.configs.pageIndex = p;
+                tedu.configs.pageIndex = p;
                 setTimeout(callBack(), 200);
             }
         });

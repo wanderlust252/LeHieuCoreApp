@@ -13,9 +13,9 @@ namespace LeHieuCoreApp.Models
         public int Quantity { set; get; }
 
         public decimal Price { set; get; }
+         
+        public ColorViewModel Color { get; set; }
 
-        public int ColorId { get; set; }
-
-        public int SizeId { get; set; }
+        public SizeViewModel Size { get; set; }
     }
 }
