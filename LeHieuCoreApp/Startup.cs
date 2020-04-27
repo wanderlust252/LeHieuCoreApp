@@ -79,7 +79,11 @@ namespace LeHieuCoreApp
                 SiteKey = Configuration["Recaptcha:SiteKey"],
                 SecretKey= Configuration["Recaptcha:SecretKey"]
             });
-            
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromHours(2);
+                options.Cookie.HttpOnly = true;
+            });
             services.AddAutoMapper();
             // Add application services.
             
@@ -154,7 +158,7 @@ namespace LeHieuCoreApp
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UseSession();
             app.UseAuthentication();
 
             app.UseMvc(routes =>
